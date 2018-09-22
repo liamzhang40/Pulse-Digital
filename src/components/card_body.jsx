@@ -1,4 +1,5 @@
 import React from 'react';
+import DropdownButton from './dropdown_button';
 
 class CardBody extends React.Component {
   constructor() {
@@ -9,12 +10,16 @@ class CardBody extends React.Component {
     };
   }
 
+  componentDidMount() {
+
+  }
+  
   render() {
     return (
       <div>
         <div>
           <h1>Card Title</h1>
-          <div>Dropdown</div>
+          <DropdownButton />
         </div>
         <div></div>
       </div>
