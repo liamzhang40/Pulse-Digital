@@ -21320,11 +21320,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 document.addEventListener("DOMContentLoaded", function () {
   var root = document.getElementById("root");
 
-  _reactDom2.default.render(_react2.default.createElement(
-    'div',
-    null,
-    'Hello World'
-  ), root);
+  _reactDom2.default.render(_react2.default.createElement(_card_body2.default, null), root);
 });
 
 /***/ }),
@@ -21378,7 +21374,21 @@ var CardBody = function (_React$Component) {
       return _react2.default.createElement(
         "div",
         null,
-        "Hello World"
+        _react2.default.createElement(
+          "div",
+          null,
+          _react2.default.createElement(
+            "h1",
+            null,
+            "Card Title"
+          ),
+          _react2.default.createElement(
+            "div",
+            null,
+            "Dropdown"
+          )
+        ),
+        _react2.default.createElement("div", null)
       );
     }
   }]);

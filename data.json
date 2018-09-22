@@ -1,0 +1,3298 @@
+[
+  {
+    "member": "Person 1",
+    "influencerType": "Type D",
+    "indicationCategory": "Multiple Myeloma",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Director of Surgical Oncology",
+    "primaryState": "WI"
+  },
+  {
+    "member": "Person 2",
+    "influencerType": "Type D",
+    "indicationCategory": "Renal Cell",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Clinical Professor",
+    "primaryState": "CANADA"
+  },
+  {
+    "member": "Person 3",
+    "influencerType": "Type D",
+    "indicationCategory": "Melanoma",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Chief, Veterans Hospital Hematology-Oncology Section | Staff Physician Hematology/Oncology",
+    "primaryState": "IN"
+  },
+  {
+    "member": "Person 4",
+    "influencerType": "Type D",
+    "indicationCategory": "Melanoma",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Oncologist",
+    "primaryState": "WI"
+  },
+  {
+    "member": "Person 5",
+    "influencerType": "Type D",
+    "indicationCategory": "Renal Cell",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Radiation Oncologist",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 6",
+    "influencerType": "Type D",
+    "indicationCategory": "Renal Cell",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Oncologist / Hematologist",
+    "primaryState": "WI"
+  },
+  {
+    "member": "Person 7",
+    "influencerType": "Type D",
+    "indicationCategory": "Multiple Myeloma",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Leader - Lymphoma Disease Group",
+    "primaryState": "OR"
+  },
+  {
+    "member": "Person 8",
+    "influencerType": "Type D",
+    "indicationCategory": "Renal Cell",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Oncologist / Hematologist",
+    "primaryState": "WI"
+  },
+  {
+    "member": "Person 9",
+    "influencerType": "Type D",
+    "indicationCategory": "Bladder",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Professor of Gynecologic Oncology, Director of Gynecologic Cancer Research",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 10",
+    "influencerType": "Type D",
+    "indicationCategory": "Multiple Myeloma",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Director - Phase I & GI Oncology Programs | Co-leader - Developmental Therapeutics Program",
+    "primaryState": "IN"
+  },
+  {
+    "member": "Person 11",
+    "influencerType": "Type D",
+    "indicationCategory": "Renal Cell",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Director - Myeloma and Multi-Disciplinary Amyloid Program",
+    "primaryState": "OR"
+  },
+  {
+    "member": "Person 12",
+    "influencerType": "Type D",
+    "indicationCategory": "Melanoma",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Oncologist / Hematologist",
+    "primaryState": "WI"
+  },
+  {
+    "member": "Person 13",
+    "influencerType": "Type D",
+    "indicationCategory": "Bladder",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "TX"
+  },
+  {
+    "member": "Person 14",
+    "influencerType": "Type D",
+    "indicationCategory": "Multiple Myeloma",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Director of Medical Oncology; Inpatient Consult Service",
+    "primaryState": "CT"
+  },
+  {
+    "member": "Person 15",
+    "influencerType": "Type D",
+    "indicationCategory": "Renal Cell",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Radiation Oncologist",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 16",
+    "influencerType": "Type D",
+    "indicationCategory": "Melanoma",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "ENT-otolaryngologist",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 17",
+    "influencerType": "Type D",
+    "indicationCategory": "Pancreatic",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Professor of Radiation Oncology",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 18",
+    "influencerType": "Type D",
+    "indicationCategory": "Melanoma",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Professor of Medical Oncology",
+    "primaryState": "IN"
+  },
+  {
+    "member": "Person 19",
+    "influencerType": "Type D",
+    "indicationCategory": "Bladder",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Associate Professor of Hematology / Oncology",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 20",
+    "influencerType": "Type D",
+    "indicationCategory": "Bladder",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Clinical Associate Professor of Dermatology & Internal Medicine",
+    "primaryState": "MI"
+  },
+  {
+    "member": "Person 21",
+    "influencerType": "Type D",
+    "indicationCategory": "Multiple Myeloma",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Executive Director",
+    "primaryState": "FL"
+  },
+  {
+    "member": "Person 22",
+    "influencerType": "Type D",
+    "indicationCategory": "Multiple Myeloma",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Associate Clinical Professor, Department of Medical Oncology & Therapeutics Research",
+    "primaryState": "CA"
+  },
+  {
+    "member": "Person 23",
+    "influencerType": "Type D",
+    "indicationCategory": "Pancreatic",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Surgical Oncologist",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 24",
+    "influencerType": "Type D",
+    "indicationCategory": "Melanoma",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Director - GI Cancer Research Program | Associate Director - Drug Development Program",
+    "primaryState": "TN"
+  },
+  {
+    "member": "Person 25",
+    "influencerType": "Type D",
+    "indicationCategory": "Melanoma",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Assistant Clinical Professor - Medical Oncology & Therapeutics Research",
+    "primaryState": "CA"
+  },
+  {
+    "member": "Person 26",
+    "influencerType": "Type D",
+    "indicationCategory": "Bladder",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Medical Director for Clincal Research Operations",
+    "primaryState": "CA"
+  },
+  {
+    "member": "Person 27",
+    "influencerType": "Type D",
+    "indicationCategory": "Multiple Myeloma",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Medical Director of Early Phase Cancer Research | Oncologist / Hematologist",
+    "primaryState": "WI"
+  },
+  {
+    "member": "Person 28",
+    "influencerType": "Type D",
+    "indicationCategory": "Pancreatic",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Clinical Medical Director",
+    "primaryState": "OR"
+  },
+  {
+    "member": "Person 29",
+    "influencerType": "Type D",
+    "indicationCategory": "Pancreatic",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Co-Director of UPMC Pancreatic Center of Excellence | Associate Professor of Medicine",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 30",
+    "influencerType": "Type D",
+    "indicationCategory": "Melanoma",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Surgical Oncologist",
+    "primaryState": "WI"
+  },
+  {
+    "member": "Person 31",
+    "influencerType": "Type D",
+    "indicationCategory": "Bladder",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Medical Director of Radiation Oncology",
+    "primaryState": "IN"
+  },
+  {
+    "member": "Person 32",
+    "influencerType": "Type D",
+    "indicationCategory": "Bladder",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Oncologist / Hematologist",
+    "primaryState": "WI"
+  },
+  {
+    "member": "Person 33",
+    "influencerType": "Type D",
+    "indicationCategory": "Multiple Myeloma",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Medical Director of Radiation Oncology",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 34",
+    "influencerType": "Type D",
+    "indicationCategory": "Multiple Myeloma",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Medical Director and Chair of Radiation Oncology | President of Medical Staff",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 35",
+    "influencerType": "Type D",
+    "indicationCategory": "Renal Cell",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Medical Director and Chair of Rad Onc | Associate Pathway Director | Deputy Director Rad Services",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 36",
+    "influencerType": "Type D",
+    "indicationCategory": "Multiple Myeloma",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Oncologist / Hematologist",
+    "primaryState": "IN"
+  },
+  {
+    "member": "Person 37",
+    "influencerType": "Type D",
+    "indicationCategory": "Renal Cell",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Assistant Professor of Medicine",
+    "primaryState": "IL"
+  },
+  {
+    "member": "Person 38",
+    "influencerType": "Type D",
+    "indicationCategory": "Pancreatic",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Professor of Oncology & Pharmacology & Toxicology, Professor of Urology",
+    "primaryState": "IN"
+  },
+  {
+    "member": "Person 39",
+    "influencerType": "Type D",
+    "indicationCategory": "Multiple Myeloma",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Associate Professor",
+    "primaryState": "CT"
+  },
+  {
+    "member": "Person 40",
+    "influencerType": "Type D",
+    "indicationCategory": "Pancreatic",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 41",
+    "influencerType": "Type D",
+    "indicationCategory": "Multiple Myeloma",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Associate Director - Adult Neuro-Oncology Program | Associate Professor",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 42",
+    "influencerType": "Type D",
+    "indicationCategory": "Pancreatic",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "CA"
+  },
+  {
+    "member": "Person 43",
+    "influencerType": "Type D",
+    "indicationCategory": "Renal Cell",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Radiation Oncologist",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 44",
+    "influencerType": "Type D",
+    "indicationCategory": "Melanoma",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Director - Melanoma Center | Professor of Medicine & Dermatology & Clinical and Translational Science",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 45",
+    "influencerType": "Type D",
+    "indicationCategory": "Melanoma",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Deputy Director of Clinical Services | Chair of Oncology Program",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 46",
+    "influencerType": "Type D",
+    "indicationCategory": "Multiple Myeloma",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Oncologist / Hematologist",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 47",
+    "influencerType": "Type D",
+    "indicationCategory": "Renal Cell",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Professor of Medicine",
+    "primaryState": "OR"
+  },
+  {
+    "member": "Person 48",
+    "influencerType": "Type A",
+    "indicationCategory": "Multiple Myeloma",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Professor of Medicine",
+    "primaryState": "CT"
+  },
+  {
+    "member": "Person 49",
+    "influencerType": "Type A",
+    "indicationCategory": "Multiple Myeloma",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Hematologist / Oncologist",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 50",
+    "influencerType": "Type A",
+    "indicationCategory": "Pancreatic",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Radiation Oncologist",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 51",
+    "influencerType": "Type A",
+    "indicationCategory": "Renal Cell",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Chief Medical Director of Oncology",
+    "primaryState": "CO"
+  },
+  {
+    "member": "Person 52",
+    "influencerType": "Type A",
+    "indicationCategory": "Bladder",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Medical Director of GI Program",
+    "primaryState": "FL"
+  },
+  {
+    "member": "Person 53",
+    "influencerType": "Type A",
+    "indicationCategory": "Melanoma",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Medican Oncology Instructor (MSN, RN)",
+    "primaryState": "CO"
+  },
+  {
+    "member": "Person 54",
+    "influencerType": "Type A",
+    "indicationCategory": "Renal Cell",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "CT"
+  },
+  {
+    "member": "Person 55",
+    "influencerType": "Type A",
+    "indicationCategory": "Bladder",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Professor of Obstetrics, Gynecology, and Reproductive Sciences",
+    "primaryState": "CT"
+  },
+  {
+    "member": "Person 56",
+    "influencerType": "Type A",
+    "indicationCategory": "Renal Cell",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Assistant Professor",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 57",
+    "influencerType": "Type A",
+    "indicationCategory": "Bladder",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Co-Director, Jefferson Senior Adult Oncology Center",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 7",
+    "influencerType": "Type A",
+    "indicationCategory": "Multiple Myeloma",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Leader - Lymphoma Disease Group",
+    "primaryState": "OR"
+  },
+  {
+    "member": "Person 58",
+    "influencerType": "Type A",
+    "indicationCategory": "Multiple Myeloma",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Chief Network Officer | Deputry Chief Medical Officer",
+    "primaryState": "CT"
+  },
+  {
+    "member": "Person 59",
+    "influencerType": "Type A",
+    "indicationCategory": "Melanoma",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "TN"
+  },
+  {
+    "member": "Person 60",
+    "influencerType": "Type A",
+    "indicationCategory": "Melanoma",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 61",
+    "influencerType": "Type A",
+    "indicationCategory": "Multiple Myeloma",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "IL"
+  },
+  {
+    "member": "Person 62",
+    "influencerType": "Type A",
+    "indicationCategory": "Melanoma",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "TX"
+  },
+  {
+    "member": "Person 63",
+    "influencerType": "Type A",
+    "indicationCategory": "Pancreatic",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Associate Professor",
+    "primaryState": "TX"
+  },
+  {
+    "member": "Person 5",
+    "influencerType": "Type A",
+    "indicationCategory": "Bladder",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Radiation Oncologist",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 64",
+    "influencerType": "Type A",
+    "indicationCategory": "Multiple Myeloma",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "FL"
+  },
+  {
+    "member": "Person 65",
+    "influencerType": "Type A",
+    "indicationCategory": "Bladder",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Associate Professor of Medicine | Chief Quality Officer for Cancer",
+    "primaryState": "IL"
+  },
+  {
+    "member": "Person 66",
+    "influencerType": "Type A",
+    "indicationCategory": "Bladder",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Radiation Oncologist",
+    "primaryState": "UT"
+  },
+  {
+    "member": "Person 67",
+    "influencerType": "Type A",
+    "indicationCategory": "Renal Cell",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Assistant Professor",
+    "primaryState": "CO"
+  },
+  {
+    "member": "Person 68",
+    "influencerType": "Type A",
+    "indicationCategory": "Melanoma",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "TX"
+  },
+  {
+    "member": "Person 69",
+    "influencerType": "Type A",
+    "indicationCategory": "Renal Cell",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "OR"
+  },
+  {
+    "member": "Person 70",
+    "influencerType": "Type A",
+    "indicationCategory": "Renal Cell",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Radiation Oncologist",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 1",
+    "influencerType": "Type A",
+    "indicationCategory": "Melanoma",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Director of Surgical Oncology",
+    "primaryState": "WI"
+  },
+  {
+    "member": "Person 71",
+    "influencerType": "Type A",
+    "indicationCategory": "Melanoma",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "FL"
+  },
+  {
+    "member": "Person 72",
+    "influencerType": "Type A",
+    "indicationCategory": "Renal Cell",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Radiation Oncologist",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 73",
+    "influencerType": "Type A",
+    "indicationCategory": "Multiple Myeloma",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Associate Chief, Hematology / Oncology | Co-Director, Breast Center | Associate Director, Clinical Investigation",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 74",
+    "influencerType": "Type A",
+    "indicationCategory": "Pancreatic",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "WI"
+  },
+  {
+    "member": "Person 75",
+    "influencerType": "Type A",
+    "indicationCategory": "Pancreatic",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 76",
+    "influencerType": "Type A",
+    "indicationCategory": "Multiple Myeloma",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Neuro-oncologist",
+    "primaryState": "ME"
+  },
+  {
+    "member": "Person 77",
+    "influencerType": "Type A",
+    "indicationCategory": "Bladder",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "UT"
+  },
+  {
+    "member": "Person 78",
+    "influencerType": "Type A",
+    "indicationCategory": "Renal Cell",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "CA"
+  },
+  {
+    "member": "Person 79",
+    "influencerType": "Type A",
+    "indicationCategory": "Renal Cell",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "OH"
+  },
+  {
+    "member": "Person 80",
+    "influencerType": "Type A",
+    "indicationCategory": "Multiple Myeloma",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "TX"
+  },
+  {
+    "member": "Person 81",
+    "influencerType": "Type A",
+    "indicationCategory": "Bladder",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "MN"
+  },
+  {
+    "member": "Person 82",
+    "influencerType": "Type A",
+    "indicationCategory": "Pancreatic",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "CT"
+  },
+  {
+    "member": "Person 83",
+    "influencerType": "Type A",
+    "indicationCategory": "Bladder",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Associate Clinical Professor",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 84",
+    "influencerType": "Type A",
+    "indicationCategory": "Bladder",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Director of Medical Oncology",
+    "primaryState": "UT"
+  },
+  {
+    "member": "Person 85",
+    "influencerType": "Type A",
+    "indicationCategory": "Renal Cell",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Hematologist / Oncologist",
+    "primaryState": "UT"
+  },
+  {
+    "member": "Person 6",
+    "influencerType": "Type A",
+    "indicationCategory": "Renal Cell",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "WI"
+  },
+  {
+    "member": "Person 86",
+    "influencerType": "Type A",
+    "indicationCategory": "Renal Cell",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Chair",
+    "primaryState": "CO"
+  },
+  {
+    "member": "Person 87",
+    "influencerType": "Type A",
+    "indicationCategory": "Bladder",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Oncologist",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 88",
+    "influencerType": "Type A",
+    "indicationCategory": "Melanoma",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "TX"
+  },
+  {
+    "member": "Person 89",
+    "influencerType": "Type A",
+    "indicationCategory": "Bladder",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "MI"
+  },
+  {
+    "member": "Person 90",
+    "influencerType": "Type A",
+    "indicationCategory": "Renal Cell",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Assistant Professor, Gynecologic Oncology",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 91",
+    "influencerType": "Type A",
+    "indicationCategory": "Pancreatic",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Division Director, Regional Cancer Care, Sidney Kimmel Cancer Center",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 92",
+    "influencerType": "Type A",
+    "indicationCategory": "Multiple Myeloma",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Hematologist/Oncologist",
+    "primaryState": "TX"
+  },
+  {
+    "member": "Person 93",
+    "influencerType": "Type A",
+    "indicationCategory": "Multiple Myeloma",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Associate Director of Clinical Research for the Cancer Center",
+    "primaryState": "MI"
+  },
+  {
+    "member": "Person 94",
+    "influencerType": "Type A",
+    "indicationCategory": "Bladder",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Assistant Professor",
+    "primaryState": "CO"
+  },
+  {
+    "member": "Person 95",
+    "influencerType": "Type A",
+    "indicationCategory": "Renal Cell",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "IN"
+  },
+  {
+    "member": "Person 96",
+    "influencerType": "Type A",
+    "indicationCategory": "Renal Cell",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "TX"
+  },
+  {
+    "member": "Person 97",
+    "influencerType": "Type A",
+    "indicationCategory": "Bladder",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "CO"
+  },
+  {
+    "member": "Person 98",
+    "influencerType": "Type A",
+    "indicationCategory": "Melanoma",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "CO"
+  },
+  {
+    "member": "Person 99",
+    "influencerType": "Type A",
+    "indicationCategory": "Melanoma",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Associate Professor",
+    "primaryState": "CO"
+  },
+  {
+    "member": "Person 100",
+    "influencerType": "Type A",
+    "indicationCategory": "Pancreatic",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Director of Radiation Oncology",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 101",
+    "influencerType": "Type A",
+    "indicationCategory": "Multiple Myeloma",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 102",
+    "influencerType": "Type A",
+    "indicationCategory": "Melanoma",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "TN"
+  },
+  {
+    "member": "Person 103",
+    "influencerType": "Type A",
+    "indicationCategory": "Pancreatic",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Assistant Professor, Division of Medical Oncology",
+    "primaryState": "CO"
+  },
+  {
+    "member": "Person 104",
+    "influencerType": "Type A",
+    "indicationCategory": "Multiple Myeloma",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "TX"
+  },
+  {
+    "member": "Person 105",
+    "influencerType": "Type A",
+    "indicationCategory": "Multiple Myeloma",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "CO"
+  },
+  {
+    "member": "Person 106",
+    "influencerType": "Type A",
+    "indicationCategory": "Renal Cell",
+    "affiliation": "Cornell",
+    "affiliationPosition": "-",
+    "primaryState": "-"
+  },
+  {
+    "member": "Person 107",
+    "influencerType": "Type A",
+    "indicationCategory": "Multiple Myeloma",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Chief, Breast Medicine | Hem/Onc Fellowship Director",
+    "primaryState": "NY"
+  },
+  {
+    "member": "Person 108",
+    "influencerType": "Type A",
+    "indicationCategory": "Melanoma",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Valley – Mount Sinai Director of Comprehensive Cancer Care",
+    "primaryState": "NJ"
+  },
+  {
+    "member": "Person 109",
+    "influencerType": "Type A",
+    "indicationCategory": "Multiple Myeloma",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "OR"
+  },
+  {
+    "member": "Person 110",
+    "influencerType": "Type A",
+    "indicationCategory": "Bladder",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Director of Breast & Gynecological Cancer Research Program",
+    "primaryState": "TN"
+  },
+  {
+    "member": "Person 22",
+    "influencerType": "Type A",
+    "indicationCategory": "Multiple Myeloma",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Associate Clinical Professor, Department of Medical Oncology & Therapeutics Research",
+    "primaryState": "CA"
+  },
+  {
+    "member": "Person 111",
+    "influencerType": "Type A",
+    "indicationCategory": "Renal Cell",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Clinical Assistant Professor",
+    "primaryState": "MI"
+  },
+  {
+    "member": "Person 112",
+    "influencerType": "Type A",
+    "indicationCategory": "Bladder",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Assistant Professor of Medicine",
+    "primaryState": "OR"
+  },
+  {
+    "member": "Person 12",
+    "influencerType": "Type A",
+    "indicationCategory": "Renal Cell",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Oncologist / Hematologist",
+    "primaryState": "WI"
+  },
+  {
+    "member": "Person 113",
+    "influencerType": "Type A",
+    "indicationCategory": "Pancreatic",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Clinical Assistant Professor",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 114",
+    "influencerType": "Type A",
+    "indicationCategory": "Bladder",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 115",
+    "influencerType": "Type A",
+    "indicationCategory": "Melanoma",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "MN"
+  },
+  {
+    "member": "Person 2",
+    "influencerType": "Type A",
+    "indicationCategory": "Melanoma",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Clinical Professor",
+    "primaryState": "CANADA"
+  },
+  {
+    "member": "Person 116",
+    "influencerType": "Type A",
+    "indicationCategory": "Renal Cell",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "NC"
+  },
+  {
+    "member": "Person 117",
+    "influencerType": "Type A",
+    "indicationCategory": "Pancreatic",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "OR"
+  },
+  {
+    "member": "Person 14",
+    "influencerType": "Type A",
+    "indicationCategory": "Melanoma",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Director of Medical Oncology; Inpatient Consult Service",
+    "primaryState": "CT"
+  },
+  {
+    "member": "Person 13",
+    "influencerType": "Type A",
+    "indicationCategory": "Melanoma",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "TX"
+  },
+  {
+    "member": "Person 3",
+    "influencerType": "Type A",
+    "indicationCategory": "Pancreatic",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Chief, Veterans Hospital Hematology-Oncology Section | Staff Physician Hematology/Oncology",
+    "primaryState": "IN"
+  },
+  {
+    "member": "Person 118",
+    "influencerType": "Type A",
+    "indicationCategory": "Multiple Myeloma",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Associate Professor",
+    "primaryState": "TX"
+  },
+  {
+    "member": "Person 119",
+    "influencerType": "Type A",
+    "indicationCategory": "Renal Cell",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "OR"
+  },
+  {
+    "member": "Person 120",
+    "influencerType": "Type A",
+    "indicationCategory": "Pancreatic",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "TX"
+  },
+  {
+    "member": "Person 121",
+    "influencerType": "Type A",
+    "indicationCategory": "Melanoma",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "TN"
+  },
+  {
+    "member": "Person 122",
+    "influencerType": "Type A",
+    "indicationCategory": "Melanoma",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Radiation Oncologist",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 123",
+    "influencerType": "Type A",
+    "indicationCategory": "Renal Cell",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Assistant Professor",
+    "primaryState": "TX"
+  },
+  {
+    "member": "Person 124",
+    "influencerType": "Type A",
+    "indicationCategory": "Multiple Myeloma",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "IL"
+  },
+  {
+    "member": "Person 125",
+    "influencerType": "Type A",
+    "indicationCategory": "Bladder",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 126",
+    "influencerType": "Type A",
+    "indicationCategory": "Melanoma",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Assistant Professor",
+    "primaryState": "NY"
+  },
+  {
+    "member": "Person 127",
+    "influencerType": "Type A",
+    "indicationCategory": "Renal Cell",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "IL"
+  },
+  {
+    "member": "Person 128",
+    "influencerType": "Type A",
+    "indicationCategory": "Pancreatic",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "TX"
+  },
+  {
+    "member": "Person 129",
+    "influencerType": "Type A",
+    "indicationCategory": "Multiple Myeloma",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Surgical Oncologist",
+    "primaryState": "WI"
+  },
+  {
+    "member": "Person 130",
+    "influencerType": "Type A",
+    "indicationCategory": "Melanoma",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 131",
+    "influencerType": "Type A",
+    "indicationCategory": "Renal Cell",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Clinical Director, Gynecologic Medical Oncology and Director of Medical Oncology",
+    "primaryState": "RI"
+  },
+  {
+    "member": "Person 132",
+    "influencerType": "Type A",
+    "indicationCategory": "Multiple Myeloma",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Director, Knight Cancer Institute",
+    "primaryState": "OR"
+  },
+  {
+    "member": "Person 133",
+    "influencerType": "Type A",
+    "indicationCategory": "Bladder",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "MA"
+  },
+  {
+    "member": "Person 134",
+    "influencerType": "Type A",
+    "indicationCategory": "Pancreatic",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Dermatologic Surgeon",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 135",
+    "influencerType": "Type A",
+    "indicationCategory": "Renal Cell",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Director, Oncology Service Line",
+    "primaryState": "MN"
+  },
+  {
+    "member": "Person 136",
+    "influencerType": "Type A",
+    "indicationCategory": "Melanoma",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 137",
+    "influencerType": "Type A",
+    "indicationCategory": "Renal Cell",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Director of Lung Cancer Conference",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 138",
+    "influencerType": "Type A",
+    "indicationCategory": "Pancreatic",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "TX"
+  },
+  {
+    "member": "Person 139",
+    "influencerType": "Type A",
+    "indicationCategory": "Renal Cell",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Assistant Professor & Attending Physician",
+    "primaryState": "MN"
+  },
+  {
+    "member": "Person 140",
+    "influencerType": "Type A",
+    "indicationCategory": "Pancreatic",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "NC"
+  },
+  {
+    "member": "Person 141",
+    "influencerType": "Type A",
+    "indicationCategory": "Renal Cell",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Assistant Professor of Medicine",
+    "primaryState": "OR"
+  },
+  {
+    "member": "Person 142",
+    "influencerType": "Type A",
+    "indicationCategory": "Melanoma",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Professor of Medicine (Hematology) and of Dermatology",
+    "primaryState": "CT"
+  },
+  {
+    "member": "Person 143",
+    "influencerType": "Type A",
+    "indicationCategory": "Multiple Myeloma",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Director of Cancer Survivorship Program",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 144",
+    "influencerType": "Type A",
+    "indicationCategory": "Bladder",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "ME"
+  },
+  {
+    "member": "Person 145",
+    "influencerType": "Type A",
+    "indicationCategory": "Pancreatic",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 146",
+    "influencerType": "Type A",
+    "indicationCategory": "Melanoma",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Professor of Medicine",
+    "primaryState": "OR"
+  },
+  {
+    "member": "Person 147",
+    "influencerType": "Type A",
+    "indicationCategory": "Pancreatic",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Assistant Clinical Professor",
+    "primaryState": "CA"
+  },
+  {
+    "member": "Person 8",
+    "influencerType": "Type A",
+    "indicationCategory": "Pancreatic",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Oncologist / Hematologist",
+    "primaryState": "WI"
+  },
+  {
+    "member": "Person 148",
+    "influencerType": "Type A",
+    "indicationCategory": "Multiple Myeloma",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Medical Oncology Director, Gynecologic Oncology",
+    "primaryState": "IL"
+  },
+  {
+    "member": "Person 149",
+    "influencerType": "Type A",
+    "indicationCategory": "Multiple Myeloma",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "NC"
+  },
+  {
+    "member": "Person 150",
+    "influencerType": "Type A",
+    "indicationCategory": "Multiple Myeloma",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Clinical Chief of Genitourinary Medicine",
+    "primaryState": "NY"
+  },
+  {
+    "member": "Person 151",
+    "influencerType": "Type A",
+    "indicationCategory": "Renal Cell",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Director, Early Phase Clinical Trials Program / Chief of Melanoma",
+    "primaryState": "NY"
+  },
+  {
+    "member": "Person 152",
+    "influencerType": "Type A",
+    "indicationCategory": "Melanoma",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Co-Leader of Lung Cancer Program",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 41",
+    "influencerType": "Type A",
+    "indicationCategory": "Bladder",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Associate Director - Adult Neuro-Oncology Program | Associate Professor",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 153",
+    "influencerType": "Type A",
+    "indicationCategory": "Bladder",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Assistant Director of Brain Tumor Program",
+    "primaryState": "CA"
+  },
+  {
+    "member": "Person 154",
+    "influencerType": "Type A",
+    "indicationCategory": "Bladder",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Medical Director of Cancer Center",
+    "primaryState": "TX"
+  },
+  {
+    "member": "Person 155",
+    "influencerType": "Type A",
+    "indicationCategory": "Pancreatic",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "UT"
+  },
+  {
+    "member": "Person 156",
+    "influencerType": "Type A",
+    "indicationCategory": "Pancreatic",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Associate Professor",
+    "primaryState": "CT"
+  },
+  {
+    "member": "Person 157",
+    "influencerType": "Type A",
+    "indicationCategory": "Renal Cell",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "OR"
+  },
+  {
+    "member": "Person 158",
+    "influencerType": "Type A",
+    "indicationCategory": "Pancreatic",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "CO"
+  },
+  {
+    "member": "Person 159",
+    "influencerType": "Type A",
+    "indicationCategory": "Pancreatic",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Hematologist/Oncologist",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 160",
+    "influencerType": "Type A",
+    "indicationCategory": "Multiple Myeloma",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Assistant Professor of Urology",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 161",
+    "influencerType": "Type A",
+    "indicationCategory": "Renal Cell",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Radiation Oncologist",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 162",
+    "influencerType": "Type A",
+    "indicationCategory": "Melanoma",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "MI"
+  },
+  {
+    "member": "Person 163",
+    "influencerType": "Type A",
+    "indicationCategory": "Multiple Myeloma",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Director of Medical Oncology",
+    "primaryState": "OH"
+  },
+  {
+    "member": "Person 24",
+    "influencerType": "Type A",
+    "indicationCategory": "Pancreatic",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Director - GI Cancer Research Program | Associate Director - Drug Development Program",
+    "primaryState": "TN"
+  },
+  {
+    "member": "Person 164",
+    "influencerType": "Type A",
+    "indicationCategory": "Bladder",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "CT"
+  },
+  {
+    "member": "Person 165",
+    "influencerType": "Type A",
+    "indicationCategory": "Bladder",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Medical Director of Oncology Serivces",
+    "primaryState": "TX"
+  },
+  {
+    "member": "Person 17",
+    "influencerType": "Type A",
+    "indicationCategory": "Melanoma",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Professor of Radiation Oncology",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 166",
+    "influencerType": "Type A",
+    "indicationCategory": "Bladder",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 167",
+    "influencerType": "Type A",
+    "indicationCategory": "Multiple Myeloma",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 168",
+    "influencerType": "Type A",
+    "indicationCategory": "Pancreatic",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Associate Program Director,  Hem/Onc Fellowship | Professor",
+    "primaryState": "TX"
+  },
+  {
+    "member": "Person 169",
+    "influencerType": "Type A",
+    "indicationCategory": "Melanoma",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Hematologist / Oncologist",
+    "primaryState": "CO"
+  },
+  {
+    "member": "Person 170",
+    "influencerType": "Type A",
+    "indicationCategory": "Melanoma",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "CT"
+  },
+  {
+    "member": "Person 171",
+    "influencerType": "Type A",
+    "indicationCategory": "Multiple Myeloma",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Associate Professor",
+    "primaryState": "OR"
+  },
+  {
+    "member": "Person 172",
+    "influencerType": "Type A",
+    "indicationCategory": "Bladder",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Radiation Oncologist",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 173",
+    "influencerType": "Type A",
+    "indicationCategory": "Bladder",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Director of Thoracic Oncology",
+    "primaryState": "IL"
+  },
+  {
+    "member": "Person 26",
+    "influencerType": "Type A",
+    "indicationCategory": "Renal Cell",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Medical Director for Clincal Research Operations",
+    "primaryState": "CA"
+  },
+  {
+    "member": "Person 174",
+    "influencerType": "Type A",
+    "indicationCategory": "Multiple Myeloma",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Ambulatory Oncology Clinical Specialist",
+    "primaryState": "CO"
+  },
+  {
+    "member": "Person 175",
+    "influencerType": "Type A",
+    "indicationCategory": "Melanoma",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "CT"
+  },
+  {
+    "member": "Person 176",
+    "influencerType": "Type A",
+    "indicationCategory": "Multiple Myeloma",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Assistant Professor",
+    "primaryState": "TX"
+  },
+  {
+    "member": "Person 177",
+    "influencerType": "Type A",
+    "indicationCategory": "Multiple Myeloma",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "NJ"
+  },
+  {
+    "member": "Person 178",
+    "influencerType": "Type A",
+    "indicationCategory": "Multiple Myeloma",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Assistant Professor",
+    "primaryState": "OR"
+  },
+  {
+    "member": "Person 19",
+    "influencerType": "Type A",
+    "indicationCategory": "Renal Cell",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Associate Professor of Hematology / Oncology",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 179",
+    "influencerType": "Type A",
+    "indicationCategory": "Renal Cell",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Professor of Surgery",
+    "primaryState": "IN"
+  },
+  {
+    "member": "Person 180",
+    "influencerType": "Type A",
+    "indicationCategory": "Bladder",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Clinical Associate Professor",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 181",
+    "influencerType": "Type A",
+    "indicationCategory": "Multiple Myeloma",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Medical Oncologist, Assistant Clinical Professor",
+    "primaryState": "CA"
+  },
+  {
+    "member": "Person 182",
+    "influencerType": "Type A",
+    "indicationCategory": "Multiple Myeloma",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Medical Director of Cancer Center Ambulatory Programs",
+    "primaryState": "NY"
+  },
+  {
+    "member": "Person 183",
+    "influencerType": "Type A",
+    "indicationCategory": "Multiple Myeloma",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "WI"
+  },
+  {
+    "member": "Person 184",
+    "influencerType": "Type A",
+    "indicationCategory": "Melanoma",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Senior VP of Clinical Investigation",
+    "primaryState": "NY"
+  },
+  {
+    "member": "Person 185",
+    "influencerType": "Type A",
+    "indicationCategory": "Melanoma",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Associate Professor",
+    "primaryState": "TX"
+  },
+  {
+    "member": "Person 186",
+    "influencerType": "Type A",
+    "indicationCategory": "Multiple Myeloma",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "CA"
+  },
+  {
+    "member": "Person 187",
+    "influencerType": "Type A",
+    "indicationCategory": "Multiple Myeloma",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Director of Breast Medical Oncology",
+    "primaryState": "NJ"
+  },
+  {
+    "member": "Person 188",
+    "influencerType": "Type A",
+    "indicationCategory": "Melanoma",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 189",
+    "influencerType": "Type A",
+    "indicationCategory": "Pancreatic",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Professor of Neuro-Oncology",
+    "primaryState": "TX"
+  },
+  {
+    "member": "Person 190",
+    "influencerType": "Type A",
+    "indicationCategory": "Bladder",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Hematologist/Oncologist",
+    "primaryState": "UT"
+  },
+  {
+    "member": "Person 191",
+    "influencerType": "Type A",
+    "indicationCategory": "Multiple Myeloma",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Medical Oncologist / Hematologist",
+    "primaryState": "FL"
+  },
+  {
+    "member": "Person 192",
+    "influencerType": "Type A",
+    "indicationCategory": "Multiple Myeloma",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Associate Clinical Professor",
+    "primaryState": "CA"
+  },
+  {
+    "member": "Person 193",
+    "influencerType": "Type A",
+    "indicationCategory": "Pancreatic",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Co-Director of GI Cancer Program",
+    "primaryState": "CA"
+  },
+  {
+    "member": "Person 194",
+    "influencerType": "Type A",
+    "indicationCategory": "Pancreatic",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "TN"
+  },
+  {
+    "member": "Person 195",
+    "influencerType": "Type A",
+    "indicationCategory": "Melanoma",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Chief, Division of Gynecologic Oncology",
+    "primaryState": "TX"
+  },
+  {
+    "member": "Person 196",
+    "influencerType": "Type A",
+    "indicationCategory": "Renal Cell",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Chief, Lymphoma & Myeloma",
+    "primaryState": "NY"
+  },
+  {
+    "member": "Person 197",
+    "influencerType": "Type A",
+    "indicationCategory": "Bladder",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "FL"
+  },
+  {
+    "member": "Person 198",
+    "influencerType": "Type A",
+    "indicationCategory": "Renal Cell",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "FL"
+  },
+  {
+    "member": "Person 199",
+    "influencerType": "Type A",
+    "indicationCategory": "Multiple Myeloma",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Oncology Clinical Pharmacist",
+    "primaryState": "CO"
+  },
+  {
+    "member": "Person 200",
+    "influencerType": "Type A",
+    "indicationCategory": "Multiple Myeloma",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "CT"
+  },
+  {
+    "member": "Person 201",
+    "influencerType": "Type A",
+    "indicationCategory": "Pancreatic",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 202",
+    "influencerType": "Type A",
+    "indicationCategory": "Melanoma",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Medical Director of Neuro-Oncology Program",
+    "primaryState": "WI"
+  },
+  {
+    "member": "Person 203",
+    "influencerType": "Type A",
+    "indicationCategory": "Pancreatic",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Director of Pharmaceutical Initiatives | Medical Oncologist",
+    "primaryState": "CA"
+  },
+  {
+    "member": "Person 204",
+    "influencerType": "Type A",
+    "indicationCategory": "Pancreatic",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "CT"
+  },
+  {
+    "member": "Person 205",
+    "influencerType": "Type A",
+    "indicationCategory": "Pancreatic",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "TX"
+  },
+  {
+    "member": "Person 28",
+    "influencerType": "Type A",
+    "indicationCategory": "Pancreatic",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Clinical Medical Director",
+    "primaryState": "OR"
+  },
+  {
+    "member": "Person 27",
+    "influencerType": "Type A",
+    "indicationCategory": "Renal Cell",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Medical Director of Early Phase Cancer Research | Oncologist / Hematologist",
+    "primaryState": "WI"
+  },
+  {
+    "member": "Person 206",
+    "influencerType": "Type A",
+    "indicationCategory": "Bladder",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Director of Multidisciplinary Lung Cancer Clinic | Professor of Medical Oncology",
+    "primaryState": "MI"
+  },
+  {
+    "member": "Person 207",
+    "influencerType": "Type A",
+    "indicationCategory": "Multiple Myeloma",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Gynecological Oncologist",
+    "primaryState": "CA"
+  },
+  {
+    "member": "Person 208",
+    "influencerType": "Type A",
+    "indicationCategory": "Renal Cell",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 209",
+    "influencerType": "Type A",
+    "indicationCategory": "Pancreatic",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Assistant Professor",
+    "primaryState": "NY"
+  },
+  {
+    "member": "Person 210",
+    "influencerType": "Type A",
+    "indicationCategory": "Pancreatic",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 211",
+    "influencerType": "Type A",
+    "indicationCategory": "Melanoma",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Director for the Sarah Cannon Center for Blood Cancer at Tennessee Oncology",
+    "primaryState": "TN"
+  },
+  {
+    "member": "Person 212",
+    "influencerType": "Type A",
+    "indicationCategory": "Pancreatic",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "IL"
+  },
+  {
+    "member": "Person 213",
+    "influencerType": "Type A",
+    "indicationCategory": "Melanoma",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Assistant Professor of Medicine",
+    "primaryState": "CT"
+  },
+  {
+    "member": "Person 29",
+    "influencerType": "Type A",
+    "indicationCategory": "Pancreatic",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Co-Director of UPMC Pancreatic Center of Excellence | Associate Professor of Medicine",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 214",
+    "influencerType": "Type A",
+    "indicationCategory": "Multiple Myeloma",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Assistant Professor",
+    "primaryState": "TX"
+  },
+  {
+    "member": "Person 215",
+    "influencerType": "Type A",
+    "indicationCategory": "Bladder",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Breast Oncology Surgeon",
+    "primaryState": "WI"
+  },
+  {
+    "member": "Person 216",
+    "influencerType": "Type A",
+    "indicationCategory": "Bladder",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 217",
+    "influencerType": "Type A",
+    "indicationCategory": "Renal Cell",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Clinical Assistant Professor / Medical Oncologist",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 218",
+    "influencerType": "Type A",
+    "indicationCategory": "Pancreatic",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "MI"
+  },
+  {
+    "member": "Person 219",
+    "influencerType": "Type A",
+    "indicationCategory": "Melanoma",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Hematologist/Oncologist",
+    "primaryState": "RI"
+  },
+  {
+    "member": "Person 220",
+    "influencerType": "Type A",
+    "indicationCategory": "Bladder",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "OH"
+  },
+  {
+    "member": "Person 221",
+    "influencerType": "Type A",
+    "indicationCategory": "Bladder",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Gynecologic Oncologist",
+    "primaryState": "OH"
+  },
+  {
+    "member": "Person 23",
+    "influencerType": "Type A",
+    "indicationCategory": "Melanoma",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Surgical Oncologist",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 222",
+    "influencerType": "Type A",
+    "indicationCategory": "Renal Cell",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Co-Chair of Hematologic Malignancies Program",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 223",
+    "influencerType": "Type A",
+    "indicationCategory": "Melanoma",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Hematologist/Oncologist",
+    "primaryState": "UT"
+  },
+  {
+    "member": "Person 25",
+    "influencerType": "Type A",
+    "indicationCategory": "Pancreatic",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Assistant Clinical Professor - Medical Oncology & Therapeutics Research",
+    "primaryState": "CA"
+  },
+  {
+    "member": "Person 18",
+    "influencerType": "Type A",
+    "indicationCategory": "Pancreatic",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Professor of Medical Oncology",
+    "primaryState": "IN"
+  },
+  {
+    "member": "Person 20",
+    "influencerType": "Type A",
+    "indicationCategory": "Pancreatic",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Clinical Associate Professor of Dermatology & Internal Medicine",
+    "primaryState": "MI"
+  },
+  {
+    "member": "Person 224",
+    "influencerType": "Type A",
+    "indicationCategory": "Pancreatic",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 225",
+    "influencerType": "Type A",
+    "indicationCategory": "Melanoma",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "ME"
+  },
+  {
+    "member": "Person 226",
+    "influencerType": "Type A",
+    "indicationCategory": "Pancreatic",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Breast Oncology Surgeon",
+    "primaryState": "WI"
+  },
+  {
+    "member": "Person 227",
+    "influencerType": "Type A",
+    "indicationCategory": "Pancreatic",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Assistant Prof. of Oncology",
+    "primaryState": "NY"
+  },
+  {
+    "member": "Person 228",
+    "influencerType": "Type A",
+    "indicationCategory": "Multiple Myeloma",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Assistant Professor",
+    "primaryState": "CO"
+  },
+  {
+    "member": "Person 21",
+    "influencerType": "Type A",
+    "indicationCategory": "Bladder",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Executive Director",
+    "primaryState": "FL"
+  },
+  {
+    "member": "Person 229",
+    "influencerType": "Type A",
+    "indicationCategory": "Melanoma",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Clinical Director, Breast Medical Oncology Group",
+    "primaryState": "RI"
+  },
+  {
+    "member": "Person 230",
+    "influencerType": "Type A",
+    "indicationCategory": "Bladder",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Associate Director, Center for Chronic Lymphocytic Leukemia",
+    "primaryState": "MA"
+  },
+  {
+    "member": "Person 231",
+    "influencerType": "Type A",
+    "indicationCategory": "Bladder",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "IN"
+  },
+  {
+    "member": "Person 232",
+    "influencerType": "Type A",
+    "indicationCategory": "Melanoma",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Chief Quality Officer | Deputy CMO",
+    "primaryState": "CT"
+  },
+  {
+    "member": "Person 233",
+    "influencerType": "Type A",
+    "indicationCategory": "Pancreatic",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Gynecologic Oncologist",
+    "primaryState": "MI"
+  },
+  {
+    "member": "Person 234",
+    "influencerType": "Type A",
+    "indicationCategory": "Melanoma",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Director of Myeloma, Waldenstrom's, Amyloidosis Program",
+    "primaryState": "TX"
+  },
+  {
+    "member": "Person 235",
+    "influencerType": "Type A",
+    "indicationCategory": "Bladder",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Head & Neck Disease Team Leader of Medical Oncology",
+    "primaryState": "OH"
+  },
+  {
+    "member": "Person 236",
+    "influencerType": "Type A",
+    "indicationCategory": "Multiple Myeloma",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "NC"
+  },
+  {
+    "member": "Person 237",
+    "influencerType": "Type A",
+    "indicationCategory": "Pancreatic",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Assistant Professor",
+    "primaryState": "TX"
+  },
+  {
+    "member": "Person 238",
+    "influencerType": "Type A",
+    "indicationCategory": "Pancreatic",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Surgical Oncologist",
+    "primaryState": "TX"
+  },
+  {
+    "member": "Person 239",
+    "influencerType": "Type A",
+    "indicationCategory": "Renal Cell",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Director of Gynecologic Oncology",
+    "primaryState": "DE"
+  },
+  {
+    "member": "Person 240",
+    "influencerType": "Type A",
+    "indicationCategory": "Bladder",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Assistant Professor",
+    "primaryState": "MN"
+  },
+  {
+    "member": "Person 241",
+    "influencerType": "Type A",
+    "indicationCategory": "Pancreatic",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "TX"
+  },
+  {
+    "member": "Person 242",
+    "influencerType": "Type A",
+    "indicationCategory": "Multiple Myeloma",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "OH"
+  },
+  {
+    "member": "Person 243",
+    "influencerType": "Type A",
+    "indicationCategory": "Multiple Myeloma",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Radiation Oncologist",
+    "primaryState": "CO"
+  },
+  {
+    "member": "Person 244",
+    "influencerType": "Type A",
+    "indicationCategory": "Multiple Myeloma",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 245",
+    "influencerType": "Type A",
+    "indicationCategory": "Melanoma",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Medical Oncology",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 246",
+    "influencerType": "Type A",
+    "indicationCategory": "Pancreatic",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "CA"
+  },
+  {
+    "member": "Person 247",
+    "influencerType": "Type A",
+    "indicationCategory": "Melanoma",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "TN"
+  },
+  {
+    "member": "Person 248",
+    "influencerType": "Type A",
+    "indicationCategory": "Melanoma",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "OR"
+  },
+  {
+    "member": "Person 249",
+    "influencerType": "Type A",
+    "indicationCategory": "Melanoma",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Director of Hematologic Malignancies Clinical Research",
+    "primaryState": "IL"
+  },
+  {
+    "member": "Person 250",
+    "influencerType": "Type A",
+    "indicationCategory": "Melanoma",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Breast Oncology Surgeon",
+    "primaryState": "WI"
+  },
+  {
+    "member": "Person 251",
+    "influencerType": "Type A",
+    "indicationCategory": "Pancreatic",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Radiation Oncologist",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 252",
+    "influencerType": "Type A",
+    "indicationCategory": "Renal Cell",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Gynecologic Oncologist",
+    "primaryState": "MI"
+  },
+  {
+    "member": "Person 253",
+    "influencerType": "Type A",
+    "indicationCategory": "Melanoma",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Gynecologic Oncologist | Director of Minimally Invasive Surgery",
+    "primaryState": "NY"
+  },
+  {
+    "member": "Person 254",
+    "influencerType": "Type A",
+    "indicationCategory": "Melanoma",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Associate Professor",
+    "primaryState": "TX"
+  },
+  {
+    "member": "Person 255",
+    "influencerType": "Type A",
+    "indicationCategory": "Melanoma",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 256",
+    "influencerType": "Type A",
+    "indicationCategory": "Bladder",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Hematologist/Oncologist",
+    "primaryState": "UT"
+  },
+  {
+    "member": "Person 257",
+    "influencerType": "Type A",
+    "indicationCategory": "Pancreatic",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Professor",
+    "primaryState": "TX"
+  },
+  {
+    "member": "Person 258",
+    "influencerType": "Type A",
+    "indicationCategory": "Renal Cell",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Hematologist/Oncologist",
+    "primaryState": "FL"
+  },
+  {
+    "member": "Person 259",
+    "influencerType": "Type A",
+    "indicationCategory": "Melanoma",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Radiation Oncologist",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 46",
+    "influencerType": "Type A",
+    "indicationCategory": "Melanoma",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Oncologist / Hematologist",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 260",
+    "influencerType": "Type A",
+    "indicationCategory": "Renal Cell",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Radiation Oncologist",
+    "primaryState": "OH"
+  },
+  {
+    "member": "Person 261",
+    "influencerType": "Type A",
+    "indicationCategory": "Renal Cell",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "WI"
+  },
+  {
+    "member": "Person 262",
+    "influencerType": "Type A",
+    "indicationCategory": "Melanoma",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Assistant Professor",
+    "primaryState": "OH"
+  },
+  {
+    "member": "Person 33",
+    "influencerType": "Type A",
+    "indicationCategory": "Melanoma",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Medical Director of Radiation Oncology",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 263",
+    "influencerType": "Type A",
+    "indicationCategory": "Melanoma",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "TX"
+  },
+  {
+    "member": "Person 264",
+    "influencerType": "Type A",
+    "indicationCategory": "Bladder",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 265",
+    "influencerType": "Type A",
+    "indicationCategory": "Renal Cell",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Medical Oncologist / Hematologist",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 266",
+    "influencerType": "Type A",
+    "indicationCategory": "Bladder",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Assistant Professor",
+    "primaryState": "TX"
+  },
+  {
+    "member": "Person 267",
+    "influencerType": "Type A",
+    "indicationCategory": "Melanoma",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Assistant Professor",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 268",
+    "influencerType": "Type A",
+    "indicationCategory": "Bladder",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Professor and Director, Division of Medical Oncology and Hematopoietic Stem Cell Transplantation",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 269",
+    "influencerType": "Type A",
+    "indicationCategory": "Bladder",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Hematologist/Oncologist",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 270",
+    "influencerType": "Type A",
+    "indicationCategory": "Pancreatic",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Thoracic Surgery",
+    "primaryState": "IN"
+  },
+  {
+    "member": "Person 271",
+    "influencerType": "Type A",
+    "indicationCategory": "Renal Cell",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Associate Professor",
+    "primaryState": "TX"
+  },
+  {
+    "member": "Person 272",
+    "influencerType": "Type A",
+    "indicationCategory": "Bladder",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Co-Director, Yale Cancer Center Genetics | Director of Breast Cancer Research",
+    "primaryState": "CT"
+  },
+  {
+    "member": "Person 273",
+    "influencerType": "Type A",
+    "indicationCategory": "Pancreatic",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "OR"
+  },
+  {
+    "member": "Person 274",
+    "influencerType": "Type A",
+    "indicationCategory": "Renal Cell",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "NY"
+  },
+  {
+    "member": "Person 275",
+    "influencerType": "Type A",
+    "indicationCategory": "Bladder",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Assistant Professor",
+    "primaryState": "TX"
+  },
+  {
+    "member": "Person 276",
+    "influencerType": "Type A",
+    "indicationCategory": "Renal Cell",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "WI"
+  },
+  {
+    "member": "Person 277",
+    "influencerType": "Type A",
+    "indicationCategory": "Renal Cell",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "TX"
+  },
+  {
+    "member": "Person 278",
+    "influencerType": "Type A",
+    "indicationCategory": "Melanoma",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Radiation Oncologist",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 279",
+    "influencerType": "Type A",
+    "indicationCategory": "Bladder",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Chief of Gastrointestinal Surgery and Professor of Oncology",
+    "primaryState": "NY"
+  },
+  {
+    "member": "Person 280",
+    "influencerType": "Type A",
+    "indicationCategory": "Renal Cell",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Medical Director, Radiation Oncology",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 43",
+    "influencerType": "Type A",
+    "indicationCategory": "Melanoma",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Radiation Oncologist",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 34",
+    "influencerType": "Type A",
+    "indicationCategory": "Multiple Myeloma",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Medical Director and Chair of Radiation Oncology | President of Medical Staff",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 35",
+    "influencerType": "Type A",
+    "indicationCategory": "Melanoma",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Medical Director and Chair of Rad Onc | Associate Pathway Director | Deputy Director Rad Services",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 281",
+    "influencerType": "Type A",
+    "indicationCategory": "Pancreatic",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Medical Director of Thoracic Cancer Program",
+    "primaryState": "FL"
+  },
+  {
+    "member": "Person 282",
+    "influencerType": "Type A",
+    "indicationCategory": "Renal Cell",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "UT"
+  },
+  {
+    "member": "Person 40",
+    "influencerType": "Type A",
+    "indicationCategory": "Pancreatic",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 283",
+    "influencerType": "Type A",
+    "indicationCategory": "Melanoma",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "CT"
+  },
+  {
+    "member": "Person 284",
+    "influencerType": "Type A",
+    "indicationCategory": "Multiple Myeloma",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Associate Professor",
+    "primaryState": "CO"
+  },
+  {
+    "member": "Person 285",
+    "influencerType": "Type A",
+    "indicationCategory": "Bladder",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Radiation Oncologist",
+    "primaryState": "IN"
+  },
+  {
+    "member": "Person 286",
+    "influencerType": "Type A",
+    "indicationCategory": "Renal Cell",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Deputy Director of Knight Cancer Institute | Division Head of Prostate Cancer",
+    "primaryState": "OR"
+  },
+  {
+    "member": "Person 287",
+    "influencerType": "Type A",
+    "indicationCategory": "Bladder",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "ONP",
+    "primaryState": "CT"
+  },
+  {
+    "member": "Person 288",
+    "influencerType": "Type A",
+    "indicationCategory": "Melanoma",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Oncologist / Hematologist",
+    "primaryState": "NY"
+  },
+  {
+    "member": "Person 289",
+    "influencerType": "Type A",
+    "indicationCategory": "Pancreatic",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Radiation Oncologist",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 290",
+    "influencerType": "Type A",
+    "indicationCategory": "Renal Cell",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Radiation Oncologist",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 291",
+    "influencerType": "Type A",
+    "indicationCategory": "Bladder",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "WI"
+  },
+  {
+    "member": "Person 292",
+    "influencerType": "Type A",
+    "indicationCategory": "Pancreatic",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Oncologist / Hematologist",
+    "primaryState": "NY"
+  },
+  {
+    "member": "Person 293",
+    "influencerType": "Type A",
+    "indicationCategory": "Renal Cell",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Chief of Hematology/Oncology | Director, Genitourinary Program",
+    "primaryState": "IL"
+  },
+  {
+    "member": "Person 294",
+    "influencerType": "Type A",
+    "indicationCategory": "Melanoma",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "UT"
+  },
+  {
+    "member": "Person 295",
+    "influencerType": "Type A",
+    "indicationCategory": "Melanoma",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Co-Director, Brain Tumor Center of The Sidney Kimmel Cancer Center; Radiation Oncologist",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 296",
+    "influencerType": "Type A",
+    "indicationCategory": "Bladder",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 297",
+    "influencerType": "Type A",
+    "indicationCategory": "Bladder",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Associate Professor",
+    "primaryState": "OR"
+  },
+  {
+    "member": "Person 298",
+    "influencerType": "Type A",
+    "indicationCategory": "Multiple Myeloma",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Clinical Assistant Professor, Radiation Oncology",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 299",
+    "influencerType": "Type A",
+    "indicationCategory": "Renal Cell",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Radiation Oncologist",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 300",
+    "influencerType": "Type A",
+    "indicationCategory": "Renal Cell",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Practice Director, Urologic Oncology",
+    "primaryState": "CO"
+  },
+  {
+    "member": "Person 301",
+    "influencerType": "Type A",
+    "indicationCategory": "Bladder",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Radiation Oncologist",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 302",
+    "influencerType": "Type A",
+    "indicationCategory": "Renal Cell",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Gynecologic Oncologist",
+    "primaryState": "CA"
+  },
+  {
+    "member": "Person 303",
+    "influencerType": "Type A",
+    "indicationCategory": "Pancreatic",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Assistant Professor",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 304",
+    "influencerType": "Type A",
+    "indicationCategory": "Pancreatic",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "TX"
+  },
+  {
+    "member": "Person 305",
+    "influencerType": "Type A",
+    "indicationCategory": "Pancreatic",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "TX"
+  },
+  {
+    "member": "Person 306",
+    "influencerType": "Type A",
+    "indicationCategory": "Multiple Myeloma",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Executive Vice Chair of Gynecological Services",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 307",
+    "influencerType": "Type A",
+    "indicationCategory": "Melanoma",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Thoracic Oncology Clinical Pharmacist",
+    "primaryState": "CO"
+  },
+  {
+    "member": "Person 308",
+    "influencerType": "Type A",
+    "indicationCategory": "Bladder",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Assistant Dean for Research",
+    "primaryState": "MI"
+  },
+  {
+    "member": "Person 309",
+    "influencerType": "Type A",
+    "indicationCategory": "Multiple Myeloma",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "WI"
+  },
+  {
+    "member": "Person 310",
+    "influencerType": "Type A",
+    "indicationCategory": "Melanoma",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "WI"
+  },
+  {
+    "member": "Person 311",
+    "influencerType": "Type A",
+    "indicationCategory": "Pancreatic",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "MA"
+  },
+  {
+    "member": "Person 312",
+    "influencerType": "Type A",
+    "indicationCategory": "Renal Cell",
+    "affiliation": "Cornell",
+    "affiliationPosition": "President",
+    "primaryState": "TX"
+  },
+  {
+    "member": "Person 313",
+    "influencerType": "Type A",
+    "indicationCategory": "Pancreatic",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "MN"
+  },
+  {
+    "member": "Person 314",
+    "influencerType": "Type A",
+    "indicationCategory": "Pancreatic",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "IL"
+  },
+  {
+    "member": "Person 315",
+    "influencerType": "Type A",
+    "indicationCategory": "Melanoma",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Surgical Oncologist",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 316",
+    "influencerType": "Type A",
+    "indicationCategory": "Bladder",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Assistant Professor",
+    "primaryState": "MI"
+  },
+  {
+    "member": "Person 317",
+    "influencerType": "Type A",
+    "indicationCategory": "Melanoma",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Clinical Professor",
+    "primaryState": "OH"
+  },
+  {
+    "member": "Person 318",
+    "influencerType": "Type A",
+    "indicationCategory": "Bladder",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "CT"
+  },
+  {
+    "member": "Person 319",
+    "influencerType": "Type A",
+    "indicationCategory": "Melanoma",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "TX"
+  },
+  {
+    "member": "Person 320",
+    "influencerType": "Type A",
+    "indicationCategory": "Bladder",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "CO"
+  },
+  {
+    "member": "Person 321",
+    "influencerType": "Type A",
+    "indicationCategory": "Multiple Myeloma",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Professor",
+    "primaryState": "MI"
+  },
+  {
+    "member": "Person 322",
+    "influencerType": "Type A",
+    "indicationCategory": "Melanoma",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Surgical Oncologist",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 323",
+    "influencerType": "Type A",
+    "indicationCategory": "Renal Cell",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "VP, Health Outcomes and Policy | Chair of Breast Oncology",
+    "primaryState": "NY"
+  },
+  {
+    "member": "Person 324",
+    "influencerType": "Type A",
+    "indicationCategory": "Renal Cell",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Director of Hematologic Malignancies",
+    "primaryState": "CT"
+  },
+  {
+    "member": "Person 325",
+    "influencerType": "Type A",
+    "indicationCategory": "Bladder",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "CO"
+  },
+  {
+    "member": "Person 326",
+    "influencerType": "Type A",
+    "indicationCategory": "Pancreatic",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "WI"
+  },
+  {
+    "member": "Person 327",
+    "influencerType": "Type A",
+    "indicationCategory": "Bladder",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Clinical Assistant Professor of Radiation Oncology",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 328",
+    "influencerType": "Type A",
+    "indicationCategory": "Bladder",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 329",
+    "influencerType": "Type A",
+    "indicationCategory": "Multiple Myeloma",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Professor of Neurology",
+    "primaryState": "MN"
+  },
+  {
+    "member": "Person 330",
+    "influencerType": "Type A",
+    "indicationCategory": "Renal Cell",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Director, Lymphoma Program",
+    "primaryState": "IL"
+  },
+  {
+    "member": "Person 331",
+    "influencerType": "Type A",
+    "indicationCategory": "Renal Cell",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "CO"
+  },
+  {
+    "member": "Person 332",
+    "influencerType": "Type A",
+    "indicationCategory": "Melanoma",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Assistant Professor of Medicine",
+    "primaryState": "CT"
+  },
+  {
+    "member": "Person 333",
+    "influencerType": "Type A",
+    "indicationCategory": "Renal Cell",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Assistant Professor of Medicine, Division of Hematology, Oncology and Transplantation",
+    "primaryState": "MN"
+  },
+  {
+    "member": "Person 39",
+    "influencerType": "Type A",
+    "indicationCategory": "Pancreatic",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Associate Professor",
+    "primaryState": "CT"
+  },
+  {
+    "member": "Person 334",
+    "influencerType": "Type A",
+    "indicationCategory": "Renal Cell",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Chief, Hematology / Medical Oncology",
+    "primaryState": "NJ"
+  },
+  {
+    "member": "Person 335",
+    "influencerType": "Type A",
+    "indicationCategory": "Pancreatic",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 336",
+    "influencerType": "Type A",
+    "indicationCategory": "Melanoma",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Hematologist / Oncologist",
+    "primaryState": "MI"
+  },
+  {
+    "member": "Person 337",
+    "influencerType": "Type A",
+    "indicationCategory": "Melanoma",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Clinical Assistant Professor",
+    "primaryState": "MI"
+  },
+  {
+    "member": "Person 338",
+    "influencerType": "Type A",
+    "indicationCategory": "Multiple Myeloma",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Professor",
+    "primaryState": "MI"
+  },
+  {
+    "member": "Person 339",
+    "influencerType": "Type A",
+    "indicationCategory": "Pancreatic",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Director, Division of Gynecologic Oncology",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 340",
+    "influencerType": "Type A",
+    "indicationCategory": "Multiple Myeloma",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Radiation Oncologist",
+    "primaryState": "CO"
+  },
+  {
+    "member": "Person 341",
+    "influencerType": "Type A",
+    "indicationCategory": "Melanoma",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Medical Director of Cancer Center",
+    "primaryState": "TX"
+  },
+  {
+    "member": "Person 342",
+    "influencerType": "Type A",
+    "indicationCategory": "Multiple Myeloma",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "NY"
+  },
+  {
+    "member": "Person 343",
+    "influencerType": "Type A",
+    "indicationCategory": "Renal Cell",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Gynecologic Oncologist",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 30",
+    "influencerType": "Type A",
+    "indicationCategory": "Renal Cell",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Surgical Oncologist",
+    "primaryState": "WI"
+  },
+  {
+    "member": "Person 31",
+    "influencerType": "Type A",
+    "indicationCategory": "Bladder",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Medical Director of Radiation Oncology",
+    "primaryState": "IN"
+  },
+  {
+    "member": "Person 344",
+    "influencerType": "Type A",
+    "indicationCategory": "Pancreatic",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Director, Clinical Research / Co-Director, Thoracic Oncology Program",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 345",
+    "influencerType": "Type A",
+    "indicationCategory": "Melanoma",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Program Director, Phase 1 Clinical Trials",
+    "primaryState": "OR"
+  },
+  {
+    "member": "Person 36",
+    "influencerType": "Type A",
+    "indicationCategory": "Bladder",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Oncologist / Hematologist",
+    "primaryState": "IN"
+  },
+  {
+    "member": "Person 346",
+    "influencerType": "Type A",
+    "indicationCategory": "Multiple Myeloma",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "OR"
+  },
+  {
+    "member": "Person 347",
+    "influencerType": "Type A",
+    "indicationCategory": "Renal Cell",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "CMO",
+    "primaryState": "TN"
+  },
+  {
+    "member": "Person 37",
+    "influencerType": "Type A",
+    "indicationCategory": "Melanoma",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Assistant Professor of Medicine",
+    "primaryState": "IL"
+  },
+  {
+    "member": "Person 348",
+    "influencerType": "Type A",
+    "indicationCategory": "Renal Cell",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "TX"
+  },
+  {
+    "member": "Person 349",
+    "influencerType": "Type A",
+    "indicationCategory": "Renal Cell",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "TX"
+  },
+  {
+    "member": "Person 350",
+    "influencerType": "Type A",
+    "indicationCategory": "Melanoma",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Director, Medical Gynecologic Oncology Program",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 351",
+    "influencerType": "Type A",
+    "indicationCategory": "Melanoma",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Assistant Professor",
+    "primaryState": "CT"
+  },
+  {
+    "member": "Person 352",
+    "influencerType": "Type A",
+    "indicationCategory": "Bladder",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Professor of Medicine",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 353",
+    "influencerType": "Type A",
+    "indicationCategory": "Renal Cell",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 42",
+    "influencerType": "Type A",
+    "indicationCategory": "Melanoma",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Medical Oncologist",
+    "primaryState": "CA"
+  },
+  {
+    "member": "Person 354",
+    "influencerType": "Type C",
+    "indicationCategory": "Pancreatic",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Clinical Content Analyst",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 355",
+    "influencerType": "Type C",
+    "indicationCategory": "Melanoma",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Clinical Content Analyst",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 356",
+    "influencerType": "Type C",
+    "indicationCategory": "Pancreatic",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Clinical Content Analyst",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 357",
+    "influencerType": "Type C",
+    "indicationCategory": "Renal Cell",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Clinical Content Analyst Lead",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 358",
+    "influencerType": "Type C",
+    "indicationCategory": "Pancreatic",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Clinical Content Analyst",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 359",
+    "influencerType": "Type C",
+    "indicationCategory": "Renal Cell",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Clinical Content Analyst",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 360",
+    "influencerType": "Type C",
+    "indicationCategory": "Pancreatic",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Clinical Content Analyst",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 361",
+    "influencerType": "Type C",
+    "indicationCategory": "Melanoma",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Clinical Content Analyst",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 362",
+    "influencerType": "Type C",
+    "indicationCategory": "Melanoma",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Clinical Content Manager",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 363",
+    "influencerType": "Type B",
+    "indicationCategory": "Melanoma",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Chief Marketing Officer",
+    "primaryState": "NY"
+  },
+  {
+    "member": "Person 364",
+    "influencerType": "Type B",
+    "indicationCategory": "Pancreatic",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Director of Network Development",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 3",
+    "influencerType": "Type B",
+    "indicationCategory": "Renal Cell",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Chief, Veterans Hospital Hematology-Oncology Section | Staff Physician Hematology/Oncology",
+    "primaryState": "IN"
+  },
+  {
+    "member": "Person 365",
+    "influencerType": "Type B",
+    "indicationCategory": "Bladder",
+    "affiliation": "Cornell",
+    "affiliationPosition": "CEO",
+    "primaryState": "TX"
+  },
+  {
+    "member": "Person 366",
+    "influencerType": "Type B",
+    "indicationCategory": "Renal Cell",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "President, Health Markets",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 367",
+    "influencerType": "Type B",
+    "indicationCategory": "Melanoma",
+    "affiliation": "Cornell",
+    "affiliationPosition": "CMO",
+    "primaryState": "FL"
+  },
+  {
+    "member": "Person 368",
+    "influencerType": "Type B",
+    "indicationCategory": "Bladder",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Board Chair",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 45",
+    "influencerType": "Type B",
+    "indicationCategory": "Melanoma",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "Deputy Director of Clinical Services | Chair of Oncology Program",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 369",
+    "influencerType": "Type B",
+    "indicationCategory": "Melanoma",
+    "affiliation": "Cornell",
+    "affiliationPosition": "CSO, D3 Solutions",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 35",
+    "influencerType": "Type B",
+    "indicationCategory": "Pancreatic",
+    "affiliation": "Cornell",
+    "affiliationPosition": "Medical Director and Chair of Rad Onc | Associate Pathway Director | Deputy Director Rad Services",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 370",
+    "influencerType": "Type B",
+    "indicationCategory": "Renal Cell",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "Chief Pathways Pharmacist",
+    "primaryState": "SC"
+  },
+  {
+    "member": "Person 371",
+    "influencerType": "Type B",
+    "indicationCategory": "Pancreatic",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "President, Clinical Solutions",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 372",
+    "influencerType": "Type B",
+    "indicationCategory": "Renal Cell",
+    "affiliation": "University of Minnesota",
+    "affiliationPosition": "CEO and President",
+    "primaryState": "PA"
+  },
+  {
+    "member": "Person 373",
+    "influencerType": "Type B",
+    "indicationCategory": "Bladder",
+    "affiliation": "University of Michigan",
+    "affiliationPosition": "CIO, Clinical Solutions",
+    "primaryState": "PA"
+  }
+]

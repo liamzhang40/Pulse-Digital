@@ -11,7 +11,13 @@ class CardBody extends React.Component {
 
   render() {
     return (
-      <div>Hello World</div>
+      <div>
+        <div>
+          <h1>Card Title</h1>
+          <div>Dropdown</div>
+        </div>
+        <div></div>
+      </div>
     );
   }
 }
