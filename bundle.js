@@ -31691,10 +31691,6 @@ var _card_body = __webpack_require__(/*! ./components/card_body */ "./src/compon
 
 var _card_body2 = _interopRequireDefault(_card_body);
 
-var _influencers = __webpack_require__(/*! ./utility/influencers */ "./src/utility/influencers.js");
-
-var _influencers2 = _interopRequireDefault(_influencers);
-
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 document.addEventListener("DOMContentLoaded", function () {
@@ -31702,8 +31698,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
   _reactDom2.default.render(_react2.default.createElement(_card_body2.default, null), root);
 });
-
-window.influencerTypes = _influencers2.default;
 
 /***/ }),
 
@@ -31731,6 +31725,8 @@ var _dropdown_button = __webpack_require__(/*! ./dropdown_button */ "./src/compo
 
 var _dropdown_button2 = _interopRequireDefault(_dropdown_button);
 
+var _influencers = __webpack_require__(/*! ../utility/influencers */ "./src/utility/influencers.js");
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -31748,18 +31744,46 @@ var CardBody = function (_React$Component) {
     var _this = _possibleConstructorReturn(this, (CardBody.__proto__ || Object.getPrototypeOf(CardBody)).call(this));
 
     _this.state = {
-      influencerType: "",
-      indicationCategory: ""
+      selectedType: "",
+      selectedCategory: "",
+      data: null,
+      influencerType: null,
+      indicationCategory: null
     };
     return _this;
   }
 
   _createClass(CardBody, [{
     key: 'componentDidMount',
-    value: function componentDidMount() {}
+    value: function componentDidMount() {
+      var _this2 = this;
+
+      (0, _influencers.fetchData)().then(function (data) {
+        var influencerType = new Set();
+        var indicationCategory = new Set();
+        data = JSON.parse(data);
+        data.forEach(function (datum) {
+          influencerType.add(datum.influencerType);
+          indicationCategory.add(datum.indicationCategory);
+        });
+        _this2.setState({
+          data: data,
+          influencerType: influencerType,
+          indicationCategory: indicationCategory
+        });
+      });
+    }
   }, {
     key: 'render',
     value: function render() {
+      console.log(this.state);
+      // const { data } = this.state;
+      // const influencerType = new Set();
+      // const indicationCategory = new Set();
+      // data.forEach(obj => {
+      //
+      // });
+
       return _react2.default.createElement(
         'div',
         null,
@@ -31804,8 +31828,6 @@ var _createClass = function () { function defineProperties(target, props) { for 
 var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 
 var _react2 = _interopRequireDefault(_react);
-
-var _influencers = __webpack_require__(/*! ../utility/influencers */ "./src/utility/influencers.js");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 

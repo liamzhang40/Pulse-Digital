@@ -1,5 +1,4 @@
 import React from 'react';
-import { fetchData } from '../utility/influencers';
 
 class DropdownButton extends React.Component {
   constructor() {
