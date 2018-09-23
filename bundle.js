@@ -31721,13 +31721,23 @@ var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 
 var _react2 = _interopRequireDefault(_react);
 
+var _influencers = __webpack_require__(/*! ../utility/influencers */ "./src/utility/influencers.js");
+
 var _dropdown_button = __webpack_require__(/*! ./dropdown_button */ "./src/components/dropdown_button.jsx");
 
 var _dropdown_button2 = _interopRequireDefault(_dropdown_button);
 
-var _influencers = __webpack_require__(/*! ../utility/influencers */ "./src/utility/influencers.js");
+var _tab_options = __webpack_require__(/*! ./tab_options */ "./src/components/tab_options.jsx");
+
+var _tab_options2 = _interopRequireDefault(_tab_options);
+
+var _table = __webpack_require__(/*! ./table */ "./src/components/table.jsx");
+
+var _table2 = _interopRequireDefault(_table);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = Array(arr.length); i < arr.length; i++) { arr2[i] = arr[i]; } return arr2; } else { return Array.from(arr); } }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
@@ -31766,6 +31776,10 @@ var CardBody = function (_React$Component) {
           influencerType.add(datum.influencerType);
           indicationCategory.add(datum.indicationCategory);
         });
+
+        influencerType = [].concat(_toConsumableArray(influencerType)).sort();
+        indicationCategory = [].concat(_toConsumableArray(indicationCategory)).sort();
+
         _this2.setState({
           data: data,
           influencerType: influencerType,
@@ -31776,13 +31790,19 @@ var CardBody = function (_React$Component) {
   }, {
     key: 'render',
     value: function render() {
-      console.log(this.state);
-      // const { data } = this.state;
-      // const influencerType = new Set();
-      // const indicationCategory = new Set();
-      // data.forEach(obj => {
-      //
-      // });
+      var _this3 = this;
+
+      var _state = this.state,
+          selectedType = _state.selectedType,
+          selectedCategory = _state.selectedCategory,
+          data = _state.data,
+          influencerType = _state.influencerType,
+          indicationCategory = _state.indicationCategory;
+
+
+      var filteredData = data ? data.filter(function (datum) {
+        return (!selectedType || datum.influencerType === selectedType) && (!selectedCategory || datum.indicationCategory === selectedCategory);
+      }) : [];
 
       return _react2.default.createElement(
         'div',
@@ -31795,9 +31815,28 @@ var CardBody = function (_React$Component) {
             null,
             'Card Title'
           ),
-          _react2.default.createElement(_dropdown_button2.default, null)
+          _react2.default.createElement(_dropdown_button2.default, {
+            selectedType: selectedType,
+            influencerType: influencerType,
+            setParentState: function setParentState(type) {
+              return _this3.setState({ selectedType: type });
+            } })
         ),
-        _react2.default.createElement('div', null)
+        _react2.default.createElement(
+          'div',
+          null,
+          _react2.default.createElement(_tab_options2.default, {
+            selectedCategory: selectedCategory,
+            indicationCategory: indicationCategory || [],
+            setParentState: function setParentState(type) {
+              return _this3.setState({ selectedCategory: type });
+            } }),
+          _react2.default.createElement(
+            'table',
+            null,
+            _react2.default.createElement(_table2.default, { data: filteredData })
+          )
+        )
       );
     }
   }]);
@@ -31829,6 +31868,10 @@ var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 
 var _react2 = _interopRequireDefault(_react);
 
+var _dropdown_menu = __webpack_require__(/*! ./dropdown_menu */ "./src/components/dropdown_menu.jsx");
+
+var _dropdown_menu2 = _interopRequireDefault(_dropdown_menu);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -31840,13 +31883,12 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 var DropdownButton = function (_React$Component) {
   _inherits(DropdownButton, _React$Component);
 
-  function DropdownButton() {
+  function DropdownButton(props) {
     _classCallCheck(this, DropdownButton);
 
-    var _this = _possibleConstructorReturn(this, (DropdownButton.__proto__ || Object.getPrototypeOf(DropdownButton)).call(this));
+    var _this = _possibleConstructorReturn(this, (DropdownButton.__proto__ || Object.getPrototypeOf(DropdownButton)).call(this, props));
 
     _this.state = {
-      text: "Select a type",
       visible: false
     };
 
@@ -31882,10 +31924,15 @@ var DropdownButton = function (_React$Component) {
 
       return _react2.default.createElement(
         'div',
-        { ref: function ref(node) {
+        {
+          ref: function ref(node) {
             return _this2.node = node;
-          } },
-        this.state.text
+          },
+          onClick: this.handleClick },
+        this.props.selectedType || "Select a type",
+        this.state.visible && _react2.default.createElement(_dropdown_menu2.default, {
+          influencerType: this.props.influencerType,
+          setParentState: this.props.setParentState })
       );
     }
   }]);
@@ -31894,6 +31941,190 @@ var DropdownButton = function (_React$Component) {
 }(_react2.default.Component);
 
 exports.default = DropdownButton;
+
+/***/ }),
+
+/***/ "./src/components/dropdown_menu.jsx":
+/*!******************************************!*\
+  !*** ./src/components/dropdown_menu.jsx ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var DropdownMenu = function DropdownMenu(_ref) {
+  var influencerType = _ref.influencerType,
+      setParentState = _ref.setParentState;
+
+  var types = influencerType.map(function (type, idx) {
+    return _react2.default.createElement(
+      'li',
+      {
+        key: idx,
+        onClick: function onClick() {
+          return setParentState(type);
+        } },
+      type
+    );
+  });
+  return _react2.default.createElement(
+    'div',
+    null,
+    _react2.default.createElement(
+      'ul',
+      null,
+      types
+    )
+  );
+};
+
+exports.default = DropdownMenu;
+
+/***/ }),
+
+/***/ "./src/components/tab_options.jsx":
+/*!****************************************!*\
+  !*** ./src/components/tab_options.jsx ***!
+  \****************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var TabOptions = function TabOptions(_ref) {
+  var selectedCategory = _ref.selectedCategory,
+      indicationCategory = _ref.indicationCategory,
+      setParentState = _ref.setParentState;
+
+  var options = indicationCategory.map(function (option, idx) {
+    return _react2.default.createElement(
+      'li',
+      {
+        key: idx,
+        onClick: function onClick() {
+          return setParentState(option);
+        } },
+      option
+    );
+  });
+  return _react2.default.createElement(
+    'div',
+    null,
+    _react2.default.createElement(
+      'ul',
+      null,
+      options
+    )
+  );
+};
+
+exports.default = TabOptions;
+
+/***/ }),
+
+/***/ "./src/components/table.jsx":
+/*!**********************************!*\
+  !*** ./src/components/table.jsx ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var Table = function Table(_ref) {
+  var data = _ref.data,
+      selectedType = _ref.selectedType,
+      selectedCategory = _ref.selectedCategory;
+
+  var tableHeaders = ["member", "affiliation", "affiliationPosition", "primaryState"];
+  var generateTDS = function generateTDS(obj) {
+    var tds = [];
+    for (var key in obj) {
+      if (tableHeaders.includes(key)) {
+        tds.push(_react2.default.createElement(
+          "td",
+          { key: key },
+          obj[key]
+        ));
+      }
+    }
+    return tds;
+  };
+
+  var rows = data.map(function (datum, idx) {
+    return _react2.default.createElement(
+      "tr",
+      { key: idx },
+      generateTDS(datum)
+    );
+  });
+
+  return _react2.default.createElement(
+    "tbody",
+    null,
+    _react2.default.createElement(
+      "tr",
+      null,
+      _react2.default.createElement(
+        "th",
+        null,
+        "Member"
+      ),
+      _react2.default.createElement(
+        "th",
+        null,
+        "Affiliation"
+      ),
+      _react2.default.createElement(
+        "th",
+        null,
+        "Title"
+      ),
+      _react2.default.createElement(
+        "th",
+        null,
+        "State"
+      )
+    ),
+    rows
+  );
+};
+
+exports.default = Table;
 
 /***/ }),
 

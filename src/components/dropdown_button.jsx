@@ -1,10 +1,11 @@
 import React from 'react';
+import DropdownMenu from './dropdown_menu';
 
 class DropdownButton extends React.Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
+
     this.state = {
-      text: "Select a type",
       visible: false
     };
 
@@ -32,8 +33,15 @@ class DropdownButton extends React.Component {
 
   render() {
     return (
-      <div ref={ node => this.node = node }>
-        {this.state.text}
+      <div
+        ref={ node => this.node = node }
+        onClick={ this.handleClick }>
+        { this.props.selectedType || "Select a type" }
+        { this.state.visible &&
+          <DropdownMenu
+            influencerType={ this.props.influencerType }
+            setParentState={ this.props.setParentState }/>
+        }
       </div>
     );
   }
