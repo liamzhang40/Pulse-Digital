@@ -74,7 +74,7 @@ class CardBody extends React.Component {
 
     return (
       <div>
-        <div>
+        <div className="card-header">
           <h1>Card Title</h1>
           <DropdownButton
             selectedType={ selectedType }

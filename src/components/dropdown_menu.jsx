@@ -7,7 +7,7 @@ const DropdownMenu = ({influencerTypes, setParentState}) => {
       onClick={() => setParentState(type)}>{type}</li>
   ))
   return (
-    <div>
+    <div className="dropdown-menu">
       <ul>
         {types}
       </ul>

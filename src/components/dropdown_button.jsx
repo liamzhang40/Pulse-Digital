@@ -34,6 +34,7 @@ class DropdownButton extends React.Component {
   render() {
     return (
       <div
+        className="dropdown-button"
         ref={ node => this.node = node }
         onClick={ this.handleClick }>
         { this.props.selectedType }

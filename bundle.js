@@ -31825,7 +31825,7 @@ var CardBody = function (_React$Component) {
         null,
         _react2.default.createElement(
           'div',
-          null,
+          { className: 'card-header' },
           _react2.default.createElement(
             'h1',
             null,
@@ -31941,6 +31941,7 @@ var DropdownButton = function (_React$Component) {
       return _react2.default.createElement(
         'div',
         {
+          className: 'dropdown-button',
           ref: function ref(node) {
             return _this2.node = node;
           },
@@ -31986,7 +31987,7 @@ var DropdownMenu = function DropdownMenu(_ref) {
 
   var types = influencerTypes.map(function (type, idx) {
     return _react2.default.createElement(
-      'li',
+      "li",
       {
         key: idx,
         onClick: function onClick() {
@@ -31996,10 +31997,10 @@ var DropdownMenu = function DropdownMenu(_ref) {
     );
   });
   return _react2.default.createElement(
-    'div',
-    null,
+    "div",
+    { className: "dropdown-menu" },
     _react2.default.createElement(
-      'ul',
+      "ul",
       null,
       types
     )
