@@ -31840,7 +31840,7 @@ var CardBody = function (_React$Component) {
         ),
         _react2.default.createElement(
           'div',
-          null,
+          { className: 'card-body' },
           _react2.default.createElement(_tab_options2.default, {
             selectedCategory: selectedCategory,
             indicationCategories: indicationCategories,
@@ -31848,9 +31848,13 @@ var CardBody = function (_React$Component) {
               return _this3.setState({ selectedCategory: type });
             } }),
           _react2.default.createElement(
-            'table',
-            null,
-            _react2.default.createElement(_table2.default, { data: filteredData })
+            'div',
+            { className: 'table-container' },
+            _react2.default.createElement(
+              'table',
+              null,
+              _react2.default.createElement(_table2.default, { data: filteredData })
+            )
           )
         )
       );
@@ -32036,22 +32040,34 @@ var TabOptions = function TabOptions(_ref) {
       indicationCategories = _ref.indicationCategories,
       setParentState = _ref.setParentState;
 
+  var style = {
+    position: "relative",
+    top: "2px",
+    border: "solid 2px rgb(53, 125, 210)",
+    borderBottom: "none",
+    borderRadius: "3px 3px 0 0",
+    background: "#fff",
+    color: "#000"
+  };
+
   var options = indicationCategories.map(function (option, idx) {
     return _react2.default.createElement(
-      'li',
+      "li",
       {
         key: idx,
         onClick: function onClick() {
           return setParentState(option);
-        } },
+        },
+        style: selectedCategory === option ? style : {} },
       option
     );
   });
+
   return _react2.default.createElement(
-    'div',
-    null,
+    "div",
+    { className: "tap-options" },
     _react2.default.createElement(
-      'ul',
+      "ul",
       null,
       options
     )
@@ -32087,7 +32103,8 @@ var Table = function Table(_ref) {
       selectedType = _ref.selectedType,
       selectedCategory = _ref.selectedCategory;
 
-  var tableHeaders = ["member", "affiliation", "affiliationPosition", "primaryState", "indicationCategory", "influencerType"];
+  // const tableHeaders = ["member", "affiliation", "affiliationPosition", "primaryState", "indicationCategory", "influencerType"];
+  var tableHeaders = ["member", "affiliation", "affiliationPosition", "primaryState"];
   var generateTDS = function generateTDS(obj) {
     var tds = [];
     for (var key in obj) {

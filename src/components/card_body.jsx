@@ -82,14 +82,16 @@ class CardBody extends React.Component {
             setParentState={ type => this.setState({selectedType: type}) }/>
         </div>
 
-        <div>
+        <div className="card-body">
           <TabOptions
             selectedCategory={ selectedCategory }
             indicationCategories={ indicationCategories }
             setParentState={ type => this.setState({selectedCategory: type}) }/>
-          <table>
-            <Table data={filteredData} />
-          </table>
+          <div className="table-container">
+            <table>
+              <Table data={filteredData} />
+            </table>
+          </div>
         </div>
       </div>
     );
