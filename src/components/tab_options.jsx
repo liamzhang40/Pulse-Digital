@@ -1,7 +1,7 @@
 import React from 'react';
 
-const TabOptions = ({selectedCategory, indicationCategory, setParentState}) => {
-  const options = indicationCategory.map((option, idx) => (
+const TabOptions = ({selectedCategory, indicationCategories, setParentState}) => {
+  const options = indicationCategories.map((option, idx) => (
     <li
       key={idx}
       onClick={() => setParentState(option)}>{option}</li>

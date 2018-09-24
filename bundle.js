@@ -31757,8 +31757,7 @@ var CardBody = function (_React$Component) {
       selectedType: "",
       selectedCategory: "",
       data: null,
-      influencerType: null,
-      indicationCategory: null
+      typeCategory: null
     };
     return _this;
   }
@@ -31769,23 +31768,39 @@ var CardBody = function (_React$Component) {
       var _this2 = this;
 
       (0, _influencers.fetchData)().then(function (data) {
-        var influencerType = new Set();
-        var indicationCategory = new Set();
         data = JSON.parse(data);
+        var typeCategory = {};
         data.forEach(function (datum) {
-          influencerType.add(datum.influencerType);
-          indicationCategory.add(datum.indicationCategory);
+          if (typeCategory[datum.influencerType]) {
+            typeCategory[datum.influencerType].add(datum.indicationCategory);
+          } else {
+            typeCategory[datum.influencerType] = new Set().add(datum.indicationCategory);
+          }
         });
-
-        influencerType = [].concat(_toConsumableArray(influencerType)).sort();
-        indicationCategory = [].concat(_toConsumableArray(indicationCategory)).sort();
+        var selectedType = Object.keys(typeCategory).sort()[0];
+        var selectedCategory = [].concat(_toConsumableArray(typeCategory[selectedType])).sort()[0];
 
         _this2.setState({
+          selectedType: selectedType,
+          selectedCategory: selectedCategory,
           data: data,
-          influencerType: influencerType,
-          indicationCategory: indicationCategory
+          typeCategory: typeCategory
         });
       });
+    }
+  }, {
+    key: 'componentWillUpdate',
+    value: function componentWillUpdate(nextProps, nextState) {
+      var selectedType = nextState.selectedType,
+          selectedCategory = nextState.selectedCategory,
+          data = nextState.data,
+          typeCategory = nextState.typeCategory;
+
+
+      if (!typeCategory[selectedType].has(selectedCategory)) {
+        var _selectedCategory = [].concat(_toConsumableArray(typeCategory[selectedType])).sort()[0];
+        this.setState({ selectedCategory: _selectedCategory });
+      }
     }
   }, {
     key: 'render',
@@ -31796,10 +31811,11 @@ var CardBody = function (_React$Component) {
           selectedType = _state.selectedType,
           selectedCategory = _state.selectedCategory,
           data = _state.data,
-          influencerType = _state.influencerType,
-          indicationCategory = _state.indicationCategory;
+          typeCategory = _state.typeCategory;
 
 
+      var influencerTypes = typeCategory ? Object.keys(typeCategory).sort() : [];
+      var indicationCategories = typeCategory ? [].concat(_toConsumableArray(typeCategory[selectedType])).sort() : [];
       var filteredData = data ? data.filter(function (datum) {
         return (!selectedType || datum.influencerType === selectedType) && (!selectedCategory || datum.indicationCategory === selectedCategory);
       }) : [];
@@ -31817,7 +31833,7 @@ var CardBody = function (_React$Component) {
           ),
           _react2.default.createElement(_dropdown_button2.default, {
             selectedType: selectedType,
-            influencerType: influencerType,
+            influencerTypes: influencerTypes,
             setParentState: function setParentState(type) {
               return _this3.setState({ selectedType: type });
             } })
@@ -31827,7 +31843,7 @@ var CardBody = function (_React$Component) {
           null,
           _react2.default.createElement(_tab_options2.default, {
             selectedCategory: selectedCategory,
-            indicationCategory: indicationCategory || [],
+            indicationCategories: indicationCategories,
             setParentState: function setParentState(type) {
               return _this3.setState({ selectedCategory: type });
             } }),
@@ -31929,9 +31945,9 @@ var DropdownButton = function (_React$Component) {
             return _this2.node = node;
           },
           onClick: this.handleClick },
-        this.props.selectedType || "Select a type",
+        this.props.selectedType,
         this.state.visible && _react2.default.createElement(_dropdown_menu2.default, {
-          influencerType: this.props.influencerType,
+          influencerTypes: this.props.influencerTypes,
           setParentState: this.props.setParentState })
       );
     }
@@ -31965,10 +31981,10 @@ var _react2 = _interopRequireDefault(_react);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var DropdownMenu = function DropdownMenu(_ref) {
-  var influencerType = _ref.influencerType,
+  var influencerTypes = _ref.influencerTypes,
       setParentState = _ref.setParentState;
 
-  var types = influencerType.map(function (type, idx) {
+  var types = influencerTypes.map(function (type, idx) {
     return _react2.default.createElement(
       'li',
       {
@@ -32016,10 +32032,10 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 var TabOptions = function TabOptions(_ref) {
   var selectedCategory = _ref.selectedCategory,
-      indicationCategory = _ref.indicationCategory,
+      indicationCategories = _ref.indicationCategories,
       setParentState = _ref.setParentState;
 
-  var options = indicationCategory.map(function (option, idx) {
+  var options = indicationCategories.map(function (option, idx) {
     return _react2.default.createElement(
       'li',
       {
@@ -32070,7 +32086,7 @@ var Table = function Table(_ref) {
       selectedType = _ref.selectedType,
       selectedCategory = _ref.selectedCategory;
 
-  var tableHeaders = ["member", "affiliation", "affiliationPosition", "primaryState"];
+  var tableHeaders = ["member", "affiliation", "affiliationPosition", "primaryState", "indicationCategory", "influencerType"];
   var generateTDS = function generateTDS(obj) {
     var tds = [];
     for (var key in obj) {

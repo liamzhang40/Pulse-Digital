@@ -11,31 +11,45 @@ class CardBody extends React.Component {
       selectedType: "",
       selectedCategory: "",
       data: null,
-      influencerType: null,
-      indicationCategory: null
+      typeCategory: null
     };
   }
 
   componentDidMount() {
     fetchData().then(data =>{
-      let influencerType = new Set();
-      let indicationCategory = new Set();
       data = JSON.parse(data);
+      const typeCategory = {};
       data.forEach(datum => {
-        influencerType.add(datum.influencerType);
-        indicationCategory.add(datum.indicationCategory);
+        if (typeCategory[datum.influencerType]) {
+          typeCategory[datum.influencerType].add(datum.indicationCategory);
+        } else {
+          typeCategory[datum.influencerType] = new Set().add(datum.indicationCategory);
+        }
       });
-
-      influencerType = [...influencerType].sort();
-      indicationCategory = [...indicationCategory].sort();
+      const selectedType = Object.keys(typeCategory).sort()[0];
+      const selectedCategory = [...typeCategory[selectedType]].sort()[0];
 
       this.setState({
+        selectedType,
+        selectedCategory,
         data,
-        influencerType,
-        indicationCategory
+        typeCategory,
       });
-
     });
+  }
+
+  componentWillUpdate(nextProps, nextState) {
+    const {
+      selectedType,
+      selectedCategory,
+      data,
+      typeCategory
+    } = nextState;
+
+    if (!typeCategory[selectedType].has(selectedCategory)) {
+      const selectedCategory = [...typeCategory[selectedType]].sort()[0];
+      this.setState({selectedCategory});
+    }
   }
 
   render() {
@@ -43,10 +57,13 @@ class CardBody extends React.Component {
       selectedType,
       selectedCategory,
       data,
-      influencerType,
-      indicationCategory,
+      typeCategory
     } = this.state;
 
+    const influencerTypes = typeCategory ? Object.keys(typeCategory).sort()
+    : [];
+    const indicationCategories = typeCategory ? [...typeCategory[selectedType]].sort()
+    : [];
     const filteredData = data ? data.filter(datum => {
       return (
         (!selectedType || datum.influencerType === selectedType) &&
@@ -61,14 +78,14 @@ class CardBody extends React.Component {
           <h1>Card Title</h1>
           <DropdownButton
             selectedType={ selectedType }
-            influencerType={ influencerType }
+            influencerTypes={ influencerTypes }
             setParentState={ type => this.setState({selectedType: type}) }/>
         </div>
 
         <div>
           <TabOptions
             selectedCategory={ selectedCategory }
-            indicationCategory={ indicationCategory || [] }
+            indicationCategories={ indicationCategories }
             setParentState={ type => this.setState({selectedCategory: type}) }/>
           <table>
             <Table data={filteredData} />

@@ -1,7 +1,7 @@
 import React from 'react';
 
-const DropdownMenu = ({influencerType, setParentState}) => {
-  const types = influencerType.map((type, idx) => (
+const DropdownMenu = ({influencerTypes, setParentState}) => {
+  const types = influencerTypes.map((type, idx) => (
     <li
       key={idx}
       onClick={() => setParentState(type)}>{type}</li>

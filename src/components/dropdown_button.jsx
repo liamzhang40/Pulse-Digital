@@ -36,10 +36,10 @@ class DropdownButton extends React.Component {
       <div
         ref={ node => this.node = node }
         onClick={ this.handleClick }>
-        { this.props.selectedType || "Select a type" }
+        { this.props.selectedType }
         { this.state.visible &&
           <DropdownMenu
-            influencerType={ this.props.influencerType }
+            influencerTypes={ this.props.influencerTypes }
             setParentState={ this.props.setParentState }/>
         }
       </div>

@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Table = ({data, selectedType, selectedCategory}) => {
-  const tableHeaders = ["member", "affiliation", "affiliationPosition", "primaryState"];
+  const tableHeaders = ["member", "affiliation", "affiliationPosition", "primaryState", "indicationCategory", "influencerType"];
   const generateTDS = (obj) => {
     const tds = [];
     for(const key in obj) {
