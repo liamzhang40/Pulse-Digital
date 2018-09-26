@@ -31931,11 +31931,7 @@ var DropdownButton = function (_React$Component) {
   }, {
     key: 'handleOutsideClick',
     value: function handleOutsideClick(e) {
-      if (this.node.contains(e.target)) {
-        return;
-      }
-
-      this.handleClick();
+      if (!this.node.contains(e.target)) this.handleClick();
     }
   }, {
     key: 'render',

@@ -24,11 +24,7 @@ class DropdownButton extends React.Component {
   }
 
   handleOutsideClick(e) {
-    if (this.node.contains(e.target)) {
-      return;
-    }
-
-    this.handleClick();
+    if (!this.node.contains(e.target)) this.handleClick();
   }
 
   render() {
