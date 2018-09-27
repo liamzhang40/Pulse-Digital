@@ -31770,6 +31770,7 @@ var CardBody = function (_React$Component) {
       (0, _influencers.fetchData)().then(function (data) {
         data = JSON.parse(data);
         var typeCategory = {};
+
         data.forEach(function (datum) {
           if (typeCategory[datum.influencerType]) {
             typeCategory[datum.influencerType].add(datum.indicationCategory);
@@ -31920,10 +31921,11 @@ var DropdownButton = function (_React$Component) {
   _createClass(DropdownButton, [{
     key: 'handleClick',
     value: function handleClick() {
-      if (!this.state.visible) {
-        document.addEventListener('mousedown', this.handleOutsideClick, false);
+      console.log("click");
+      if (this.state.visible) {
+        document.removeEventListener('mousedown', this.handleOutsideClick);
       } else {
-        document.removeEventListener('mousedown', this.handleOutsideClick, false);
+        document.addEventListener('mousedown', this.handleOutsideClick);
       }
 
       this.setState({ visible: !this.state.visible });
@@ -31931,20 +31933,18 @@ var DropdownButton = function (_React$Component) {
   }, {
     key: 'handleOutsideClick',
     value: function handleOutsideClick(e) {
-      if (!this.node.contains(e.target)) this.handleClick();
+      if (!this.refs.button.contains(e.target)) {
+        this.handleClick();
+      }
     }
   }, {
     key: 'render',
     value: function render() {
-      var _this2 = this;
-
       return _react2.default.createElement(
         'div',
         {
           className: 'dropdown-button',
-          ref: function ref(node) {
-            return _this2.node = node;
-          },
+          ref: 'button',
           onClick: this.handleClick },
         this.props.selectedType,
         this.state.visible && _react2.default.createElement(_dropdown_menu2.default, {
@@ -31996,6 +31996,7 @@ var DropdownMenu = function DropdownMenu(_ref) {
       type
     );
   });
+
   return _react2.default.createElement(
     "div",
     { className: "dropdown-menu" },
@@ -32099,7 +32100,6 @@ var Table = function Table(_ref) {
       selectedType = _ref.selectedType,
       selectedCategory = _ref.selectedCategory;
 
-  // const tableHeaders = ["member", "affiliation", "affiliationPosition", "primaryState", "indicationCategory", "influencerType"];
   var tableHeaders = ["member", "affiliation", "affiliationPosition", "primaryState"];
   var generateTDS = function generateTDS(obj) {
     var tds = [];

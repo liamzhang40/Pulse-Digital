@@ -5,14 +5,15 @@ const DropdownMenu = ({influencerTypes, setParentState}) => {
     <li
       key={idx}
       onClick={() => setParentState(type)}>{type}</li>
-  ))
+  ));
+
   return (
     <div className="dropdown-menu">
       <ul>
         {types}
       </ul>
     </div>
-  )
+  );
 };
 
 export default DropdownMenu;

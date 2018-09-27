@@ -1,7 +1,6 @@
 import React from 'react';
 
 const Table = ({data, selectedType, selectedCategory}) => {
-  // const tableHeaders = ["member", "affiliation", "affiliationPosition", "primaryState", "indicationCategory", "influencerType"];
   const tableHeaders = ["member", "affiliation", "affiliationPosition", "primaryState"];
   const generateTDS = (obj) => {
     const tds = [];
@@ -11,11 +10,11 @@ const Table = ({data, selectedType, selectedCategory}) => {
       }
     }
     return tds;
-  }
+  };
 
   const rows = data.map((datum, idx) => (
     <tr key={idx}>{ generateTDS(datum) }</tr>
-  ))
+  ));
 
   return (
     <tbody>
@@ -27,7 +26,7 @@ const Table = ({data, selectedType, selectedCategory}) => {
       </tr>
       {rows}
     </tbody>
-  )
+  );
 };
 
 export default Table;

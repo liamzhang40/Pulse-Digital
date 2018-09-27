@@ -9,14 +9,14 @@ const TabOptions = ({selectedCategory, indicationCategories, setParentState}) =>
     borderRadius: "3px 3px 0 0",
     background: "#fff",
     color: "#000"
-  }
+  };
 
   const options = indicationCategories.map((option, idx) => (
     <li
       key={idx}
       onClick={() => setParentState(option)}
       style={selectedCategory === option ? style : {}}>{option}</li>
-  ))
+  ));
 
   return (
     <div className="tap-options">
@@ -24,7 +24,7 @@ const TabOptions = ({selectedCategory, indicationCategories, setParentState}) =>
         {options}
       </ul>
     </div>
-  )
+  );
 };
 
 export default TabOptions;

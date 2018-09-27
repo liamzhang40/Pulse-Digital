@@ -19,6 +19,7 @@ class CardBody extends React.Component {
     fetchData().then(data =>{
       data = JSON.parse(data);
       const typeCategory = {};
+
       data.forEach(datum => {
         if (typeCategory[datum.influencerType]) {
           typeCategory[datum.influencerType].add(datum.indicationCategory);
