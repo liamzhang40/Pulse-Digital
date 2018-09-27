@@ -9,25 +9,18 @@ class DropdownButton extends React.Component {
       visible: false
     };
 
-    this.handleOutsideClick = this.handleOutsideClick.bind(this);
     this.handleClick = this.handleClick.bind(this);
   }
 
+  // mousedown > click
   handleClick() {
-    console.log("click")
     if (this.state.visible) {
-      document.removeEventListener('mousedown', this.handleOutsideClick);
+      document.removeEventListener('click', this.handleClick);
     } else {
-      document.addEventListener('mousedown', this.handleOutsideClick);
+      document.addEventListener('click', this.handleClick);
     }
 
     this.setState({visible: !this.state.visible});
-  }
-
-  handleOutsideClick(e) {
-    if (!this.refs.button.contains(e.target)) {
-      this.handleClick();
-    }
   }
 
   render() {
@@ -39,8 +32,8 @@ class DropdownButton extends React.Component {
         { this.props.selectedType }
         { this.state.visible &&
           <DropdownMenu
-            influencerTypes={ this.props.influencerTypes }
-            setParentState={ this.props.setParentState }/>
+            setParentState={ this.props.setParentState }
+            influencerTypes={ this.props.influencerTypes }/>
         }
       </div>
     );
