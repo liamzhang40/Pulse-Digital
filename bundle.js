@@ -31917,13 +31917,11 @@ var DropdownButton = function (_React$Component) {
     return _this;
   }
 
-  // mousedown > click
-
-
   _createClass(DropdownButton, [{
     key: 'handleClick',
-    value: function handleClick() {
+    value: function handleClick(e) {
       if (this.state.visible) {
+        if (this.refs.button.contains(e.target)) return;
         document.removeEventListener('click', this.handleClick);
       } else {
         document.addEventListener('click', this.handleClick);
@@ -31938,12 +31936,15 @@ var DropdownButton = function (_React$Component) {
         'div',
         {
           className: 'dropdown-button',
-          ref: 'button',
           onClick: this.handleClick },
         this.props.selectedType,
-        this.state.visible && _react2.default.createElement(_dropdown_menu2.default, {
-          setParentState: this.props.setParentState,
-          influencerTypes: this.props.influencerTypes })
+        this.state.visible && _react2.default.createElement(
+          'div',
+          { ref: 'button' },
+          _react2.default.createElement(_dropdown_menu2.default, {
+            setParentState: this.props.setParentState,
+            influencerTypes: this.props.influencerTypes })
+        )
       );
     }
   }]);
@@ -31984,8 +31985,8 @@ var DropdownMenu = function DropdownMenu(_ref) {
       "li",
       {
         key: idx,
-        onMouseDown: function onMouseDown() {
-          return setParentState(type);
+        onClick: function onClick() {
+          setParentState(type);
         } },
       type
     );

@@ -12,9 +12,9 @@ class DropdownButton extends React.Component {
     this.handleClick = this.handleClick.bind(this);
   }
 
-  // mousedown > click
-  handleClick() {
+  handleClick(e) {
     if (this.state.visible) {
+      if (this.refs.button.contains(e.target)) return;
       document.removeEventListener('click', this.handleClick);
     } else {
       document.addEventListener('click', this.handleClick);
@@ -27,13 +27,14 @@ class DropdownButton extends React.Component {
     return (
       <div
         className="dropdown-button"
-        ref="button"
         onClick={ this.handleClick }>
         { this.props.selectedType }
         { this.state.visible &&
-          <DropdownMenu
-            setParentState={ this.props.setParentState }
-            influencerTypes={ this.props.influencerTypes }/>
+          <div ref="button">
+            <DropdownMenu
+              setParentState={ this.props.setParentState }
+              influencerTypes={ this.props.influencerTypes }/>
+          </div>
         }
       </div>
     );

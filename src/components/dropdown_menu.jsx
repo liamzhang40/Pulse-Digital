@@ -4,7 +4,7 @@ const DropdownMenu = ({influencerTypes, setParentState}) => {
   const types = influencerTypes.map((type, idx) => (
     <li
       key={idx}
-      onMouseDown={() => setParentState(type)}>{type}</li>
+      onClick={() => {setParentState(type)}}>{type}</li>
   ));
 
   return (
